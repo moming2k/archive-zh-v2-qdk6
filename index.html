@@ -1,0 +1,2627 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-Hant" xml:lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>The AI-Shaped Company — Archive</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 42em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang TC",
+        "Microsoft JhengHei", "Noto Sans CJK TC", "Helvetica Neue", Helvetica,
+        Arial, sans-serif;
+      line-height: 1.7;
+    }
+    #TOC {
+      background: #f6f6f6;
+      border: 1px solid #e3e3e3;
+      border-radius: 6px;
+      padding: 1.2em 1.6em;
+      margin-bottom: 2.5em;
+    }
+    #TOC ul {
+      padding-left: 1.2em;
+    }
+    #TOC > ul > li {
+      margin-top: 0.5em;
+      font-weight: 600;
+    }
+    #TOC ul ul li {
+      font-weight: normal;
+      margin-top: 0.2em;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">The AI-Shaped Company — Archive</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#the-ai-shaped-company-archiveai-形塑的公司-文章存檔"
+id="toc-the-ai-shaped-company-archiveai-形塑的公司-文章存檔">The
+AI-Shaped Company — Archive｜AI 形塑的公司 — 文章存檔</a>
+<ul>
+<li><a href="#august-20262026-年-8-月"
+id="toc-august-20262026-年-8-月">August 2026｜2026 年 8 月</a>
+<ul>
+<li><a href="#your-approval-gate-is-training-data"
+id="toc-your-approval-gate-is-training-data">Your Approval Gate Is
+Training Data</a></li>
+<li><a href="#你的審批關卡其實是訓練資料"
+id="toc-你的審批關卡其實是訓練資料">你的審批關卡，其實是訓練資料</a></li>
+</ul></li>
+<li><a href="#july-20262026-年-7-月" id="toc-july-20262026-年-7-月">July
+2026｜2026 年 7 月</a>
+<ul>
+<li><a href="#your-agent-is-enforcing-rules-you-never-gave-it"
+id="toc-your-agent-is-enforcing-rules-you-never-gave-it">Your Agent Is
+Enforcing Rules You Never Gave It</a></li>
+<li><a href="#你的代理正在執行一條你從未給過它的規則"
+id="toc-你的代理正在執行一條你從未給過它的規則">你的代理，正在執行一條你從未給過它的規則</a></li>
+<li><a href="#i-stopped-hand-writing-my-agents"
+id="toc-i-stopped-hand-writing-my-agents">I Stopped Hand-Writing My
+Agents</a></li>
+<li><a href="#我不再親手撰寫我的代理了"
+id="toc-我不再親手撰寫我的代理了">我不再親手撰寫我的代理了</a></li>
+<li><a href="#the-five-shapes-of-an-agent-fleet"
+id="toc-the-five-shapes-of-an-agent-fleet">The Five Shapes of an Agent
+Fleet</a></li>
+<li><a href="#代理艦隊的五種形態"
+id="toc-代理艦隊的五種形態">代理艦隊的五種形態</a></li>
+</ul></li>
+<li><a href="#june-20262026-年-6-月" id="toc-june-20262026-年-6-月">June
+2026｜2026 年 6 月</a>
+<ul>
+<li><a href="#approve-the-decisions.-watch-the-work."
+id="toc-approve-the-decisions.-watch-the-work.">Approve the Decisions.
+Watch the Work.</a></li>
+<li><a href="#批准決定觀察工作"
+id="toc-批准決定觀察工作">批准決定，觀察工作</a></li>
+<li><a href="#you-dont-trust-the-agent.-you-trust-the-loop."
+id="toc-you-dont-trust-the-agent.-you-trust-the-loop.">You Don’t Trust
+the Agent. You Trust the Loop.</a></li>
+<li><a href="#你信任的不是代理是那個迴圈"
+id="toc-你信任的不是代理是那個迴圈">你信任的不是代理，是那個迴圈</a></li>
+</ul></li>
+<li><a href="#may-20262026-年-5-月" id="toc-may-20262026-年-5-月">May
+2026｜2026 年 5 月</a>
+<ul>
+<li><a
+href="#you-dont-need-fewer-agents.-you-need-agents-that-dont-need-you."
+id="toc-you-dont-need-fewer-agents.-you-need-agents-that-dont-need-you.">You
+Don’t Need Fewer Agents. You Need Agents That Don’t Need You.</a></li>
+<li><a href="#你需要的不是更少的代理而是不需要你的代理"
+id="toc-你需要的不是更少的代理而是不需要你的代理">你需要的不是更少的代理，而是不需要你的代理</a></li>
+</ul></li>
+<li><a href="#april-20262026-年-4-月"
+id="toc-april-20262026-年-4-月">April 2026｜2026 年 4 月</a>
+<ul>
+<li><a
+href="#open-loop-companies-forget.-closed-loop-companies-compound."
+id="toc-open-loop-companies-forget.-closed-loop-companies-compound.">Open
+Loop Companies Forget. Closed Loop Companies Compound.</a></li>
+<li><a href="#開迴圈的公司會遺忘閉迴圈的公司會複利"
+id="toc-開迴圈的公司會遺忘閉迴圈的公司會複利">開迴圈的公司會遺忘，閉迴圈的公司會複利</a></li>
+<li><a href="#your-ai-integration-is-stuck-in-1992"
+id="toc-your-ai-integration-is-stuck-in-1992">Your AI Integration Is
+Stuck in 1992</a></li>
+<li><a href="#你的-ai-整合還卡在-1992-年"
+id="toc-你的-ai-整合還卡在-1992-年">你的 AI 整合，還卡在 1992
+年</a></li>
+</ul></li>
+<li><a href="#march-20262026-年-3-月"
+id="toc-march-20262026-年-3-月">March 2026｜2026 年 3 月</a>
+<ul>
+<li><a href="#ai-made-you-more-productive.-the-question-is-for-whom"
+id="toc-ai-made-you-more-productive.-the-question-is-for-whom">AI Made
+You More Productive. The Question Is: For Whom?</a></li>
+<li><a href="#ai-讓你更有生產力了問題是為了誰"
+id="toc-ai-讓你更有生產力了問題是為了誰">AI
+讓你更有生產力了。問題是：為了誰？</a></li>
+</ul></li>
+<li><a href="#february-20262026-年-2-月"
+id="toc-february-20262026-年-2-月">February 2026｜2026 年 2 月</a>
+<ul>
+<li><a href="#my-kid-doesnt-need-instructions.-he-needs-judgment."
+id="toc-my-kid-doesnt-need-instructions.-he-needs-judgment.">My Kid
+Doesn’t Need Instructions. He Needs Judgment.</a></li>
+<li><a href="#我的孩子不需要說明書他需要判斷力"
+id="toc-我的孩子不需要說明書他需要判斷力">我的孩子不需要說明書，他需要判斷力</a></li>
+<li><a
+href="#my-kids-built-video-games-with-ai-last-year.-the-hard-part-wasnt-what-i-expected."
+id="toc-my-kids-built-video-games-with-ai-last-year.-the-hard-part-wasnt-what-i-expected.">My
+Kids Built Video Games With AI Last Year. The Hard Part Wasn’t What I
+Expected.</a></li>
+<li><a href="#我的孩子去年用-ai-做出了電玩難的地方不是我以為的那個"
+id="toc-我的孩子去年用-ai-做出了電玩難的地方不是我以為的那個">我的孩子去年用
+AI 做出了電玩。難的地方不是我以為的那個</a></li>
+</ul></li>
+<li><a href="#全書總結the-whole-argument-in-one-page"
+id="toc-全書總結the-whole-argument-in-one-page">全書總結｜The Whole
+Argument in One Page</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 id="the-ai-shaped-company-archiveai-形塑的公司-文章存檔">The
+AI-Shaped Company — Archive｜AI 形塑的公司 — 文章存檔</h1>
+<p><strong>Author:</strong> Leon Ho　<strong>作者：</strong> Leon Ho
+<strong>Source:</strong> https://aishapedcompany.com/archive</p>
+<blockquote>
+<p>閱讀方式：每一段先英文原句，緊接著繁體中文對照。中文以「信達雅」為準，直譯不通順處以最貼近原意的中文表達重寫。每篇文末附英中對照
+Take Away。</p>
+</blockquote>
+<hr />
+<h2 id="august-20262026-年-8-月">August 2026｜2026 年 8 月</h2>
+<h3 id="your-approval-gate-is-training-data"><a
+href="https://aishapedcompany.com/p/your-approval-gate-is-training-data">Your
+Approval Gate Is Training Data</a></h3>
+<h3 id="你的審批關卡其實是訓練資料">你的審批關卡，其實是訓練資料</h3>
+<p><em>Aug 6, 2026｜2026 年 8 月 6 日</em></p>
+<p>For about two months I told people my manager agents held the
+approval gate on purpose.
+有大約兩個月的時間，我逢人就說：我的「管理者代理」握住審批關卡，是刻意的設計。</p>
+<p>It sounded like architecture. The manager sees the whole run, so the
+manager should be the thing that stops and asks. I said it out loud more
+than once.
+這話聽起來很有架構感——管理者看得見整段執行流程，所以理應由它來喊停、來發問。這句話我不只講過一次。</p>
+<p>It was not a decision. The runtime could not hand work to a subagent
+yet. The manager was the only thing that existed, so the gate had
+nowhere else to sit.
+但那根本不是一個決定。當時的執行環境還沒辦法把工作交派給子代理，管理者是唯一存在的東西，關卡除了擺在它身上，無處可放。</p>
+<p>When subagent support shipped, I split the managers into thin
+selectors that pick one move and pass it down, and the approval went
+with the work. That commit shows the whole thing in one diff: the
+manager loses its approval flag in one hunk, the agent doing the actual
+work gains it in the next.
+等到子代理功能上線，我把管理者瘦身成純粹的「選擇器」——挑一個動作、往下傳，而審批權就跟著工作一起下去了。那次
+commit 把整件事寫在同一份 diff
+裡：上一段管理者失去審批旗標，下一段真正做事的代理拿到了它。</p>
+<p>Nothing about trust changed that week. My tooling caught up with
+where the gate always belonged, and I had spent two months describing a
+missing feature as a design principle.
+那一週，信任這件事一絲一毫都沒變。只是我的工具終於追上了關卡本來就該在的位置——而我花了兩個月，把一個「還沒做出來的功能」講成一條「設計原則」。</p>
+<p>Worth naming before anything else, because I see it everywhere
+including in my own writing: what your stack cannot do yet quietly
+becomes the thing you explain as intentional.
+這件事值得先講明白，因為我到處都看得到它，包括我自己的文章裡：你的技術棧目前做不到的事，會悄悄變成你口中「刻意為之」的設計。</p>
+<p><strong>Where a gate belongs｜關卡該擺在哪裡</strong></p>
+<p>One question decides it, and it has nothing to do with how good the
+agent has become.
+只有一個問題能決定答案，而且它跟「這個代理現在有多強」完全無關。</p>
+<p>Can you undo the last thing it does?
+它做的最後那個動作，你收得回來嗎？</p>
+<p>One of my agents makes quote images and posts them out. Single file,
+two jobs. Making the image is not gated. Publishing it is, and the file
+says so in the section heading. Same agent, same run. One action writes
+a file. The other cannot be recalled.
+我有個代理負責把金句做成圖片再發出去。一個檔案、兩件工作。做圖不設關卡，發布要設——這一點直接寫在檔案的段落標題上。同一個代理、同一次執行。一個動作只是寫一個檔案，另一個動作潑出去就收不回來。</p>
+<p>The blog agent goes further than most people are comfortable with. It
+writes the article, generates the images, commits them, and opens a real
+pull request against the live LifeHack site, with nobody watching. A
+pull request is a proposal. You can close it. So it runs unattended, and
+it is banned by name from merging or deploying, because those are the
+two verbs you cannot walk back.
+部落格代理走得比大多數人能接受的還要遠。它寫文章、生成圖片、提交
+commit，然後對著線上的 LifeHack 網站開一個真正的 pull
+request——全程沒人盯著。但 pull request
+只是一份「提案」，你隨時能關掉它。所以它可以無人看管地跑，同時被明文禁止執行
+merge 和 deploy，因為這兩個動詞你走不回頭。</p>
+<p>I wrote the test into a commit message in July without noticing what
+I had written: generation writes to a temporary folder and publishes
+nothing, so it fails the irreversible-verb test for gating.
+七月時我在一則 commit
+訊息裡寫下了這個判準，當下卻沒察覺自己寫了什麼：生成階段只寫進暫存資料夾、什麼都不發布，所以它通不過「不可逆動詞」這個設關卡的測試。</p>
+<p>Put the approval on the verb you cannot undo. Everything upstream of
+it can run on a timer while you sleep.
+把審批放在那個你收不回來的動詞上。它上游的一切，都可以在你睡覺時照著排程自己跑。</p>
+<p><strong>Zero gates is a marketing
+target｜「零關卡」是行銷指標，不是工程目標</strong></p>
+<p>Now the part I have changed my mind about.
+接下來是我改變過想法的部分。</p>
+<p>Most of the energy around this goes into removing the human as fast
+as possible, because “fully automated” is a sentence people want to be
+able to say. I understand the appeal. It is also optimizing for the
+announcement.
+這個領域大部分的力氣，都花在盡快把人類移出流程，因為「全自動」是一句大家很想說出口的話。我懂那種吸引力，但那是在為「發表會的那句話」做最佳化。</p>
+<p>I am not trying to get to zero gates. I am trying to watch an agent
+get better at its job, week over week, with something more solid than a
+feeling.
+我要的不是零關卡。我要的是看著一個代理一週比一週更會做它的工作，而且憑據要比「感覺」更紮實。</p>
+<p>The gate is the only place that evidence exists. It is the one moment
+where a human looks at a specific piece of work and renders a verdict on
+it. Delete it early and you have not proven anything. You have removed
+the instrument and kept the confidence.
+而那份證據只存在於關卡。那是唯一一個時刻：一個人類看著一件具體的產出，然後給出裁決。太早刪掉它，你什麼都沒證明——你只是拆掉了量測儀器，卻把自信留了下來。</p>
+<p>Which is a strange thing to do, given that the whole reason you
+wanted the gate gone was that the agent had earned it.
+這實在很弔詭，畢竟你當初想拿掉關卡的理由，正是「這個代理已經用表現換來了信任」。</p>
+<p><strong>So treat the gate as a
+sensor｜所以，把關卡當成感測器</strong></p>
+<p>If the gate is where the judgment happens, then every verdict passing
+through it is signal, and signal is the one thing worth harvesting.
+如果判斷發生在關卡，那麼每一個穿過關卡的裁決都是訊號——而訊號正是唯一值得收割的東西。</p>
+<p>Some of that is already running. Seven automated reviewers read a
+draft before I see it. One of them states its own purpose plainly: it
+exists so that only drafts I would approve on the first try ever reach
+me. It runs eleven named attacks against every draft, each hunting for a
+reason to fail it, and when it is still unsure at the end it is told to
+reject, because a false pass spends my attention and my attention is
+what it was built to protect.
+其中一部分已經在運作了。在我看到草稿之前，有七個自動審查者先讀過它。其中一個把自己的存在目的寫得很白：它存在的意義，是讓只有「我第一次看就會批准」的草稿才抵達我面前。它對每一份草稿發動十一種具名的攻擊，每一種都在找一個把它打回票的理由；到最後若仍不確定，它被指示要拒絕——因為誤放行會消耗我的注意力，而它被造出來就是為了保護我的注意力。</p>
+<p>Those judges are kept weak in one specific way. They cannot stop a
+run and they cannot edit a draft. One says so in its own file: a judge
+that suspends is a judge error, and a judge that can edit the draft is
+not a judge.
+這些評審在一個特定面向上被刻意保持虛弱：它們不能中止一次執行，也不能修改草稿。其中一個在自己的檔案裡寫著：會喊停的評審是評審的錯誤，而能改稿的評審根本就不是評審。</p>
+<p>But a judge only guesses at my standard. The better move is to
+capture the standard directly, from what I actually do at the gate.
+但評審終究只是在猜我的標準。更好的做法，是直接從我在關卡上的實際行為裡，把標準本身擷取下來。</p>
+<p>Which is why the third button matters more than the two everyone
+talks about. 所以，第三顆按鈕比大家整天在談的那兩顆更重要。</p>
+<p>Approve and reject are decisions. Comment is the only one that leaves
+anything behind.
+「批准」和「拒絕」是決定，「留言」才是唯一會留下東西的那一個。</p>
+<p>That part works today. When I reject something and type one sentence
+explaining why, that sentence gets stored as a rule with a source, a
+confidence, and a running count of how many times it has since been
+used. In March I turned down a draft with four words: don’t judge this
+time. It had told a builder what was wrong with his own setup, which is
+not a thing I would ever do to someone sharing their work.
+這部分今天已經能用了。當我拒絕一份東西並打下一句理由，那句話會被存成一條規則，附帶來源、信心值，以及一個「後來被套用幾次」的累計計數。三月時我用四個字退掉一份草稿：這次別評判。那份草稿去指出某位開發者自己的設定哪裡有問題——對一個願意分享作品的人，我永遠不會這樣做。</p>
+<p>That sentence has been applied 84 times since. I wrote it once, in a
+text box, while mildly annoyed. 那句話從此被套用了 84
+次。我只在一個輸入框裡、帶著一點煩躁，寫過它一次。</p>
+<p>The system also learned something on its own that I would not have
+thought to write down. One agent keeps a note saying that when both
+automated reviews reject a draft, I reject it too, so the right move is
+to drop that target entirely rather than spend two of my gate cycles on
+it.
+系統還自己學到了一件我根本不會想到要寫下來的事。有個代理留了一則筆記：當兩個自動審查都否決一份草稿時，我也一定會否決；所以正確的做法是直接放棄那個題目，而不是浪費我兩次過關卡的心力。</p>
+<p>That is the shape of the thing. My gate actions stop being overhead
+and become the training set, and each one makes the next gate a little
+less necessary.
+這就是整件事該有的形狀。我在關卡上的動作不再是額外開銷，而變成了訓練集；而每一個動作，都讓下一次的關卡少一點必要性。</p>
+<p><strong>What I have been throwing
+away｜我一直在扔掉的東西</strong></p>
+<p>Here is the uncomfortable half. 接下來是不舒服的那一半。</p>
+<p>Since May I have rejected 95 things at the gate, almost all of them
+since July. 55 of those rejections have no reason attached. I clicked
+reject and moved on. 從五月以來，我在關卡上否決了 95
+件東西，其中絕大多數集中在七月之後。這些否決裡有 55
+件沒有附上任何理由——我點了拒絕，然後就走了。</p>
+<p>Every one of those is a verdict I made and did not record. The bad
+draft stopped, which is the cheap half of the job. Nothing upstream
+learned anything, which is the half that would have compounded. The same
+draft comes back the following week wearing a different hat, and I pay
+for the review again. 那 55
+件，每一件都是我做出卻沒有記錄下來的裁決。爛草稿是被攔住了，但那是這份工作裡便宜的那一半；上游什麼都沒學到，而那才是會複利累積的那一半。同一份草稿下週換頂帽子又回來，我再付一次審查的代價。</p>
+<p>The agents have noticed, which is its own small indignity. One of
+them logs that the cause of a rejection is unresolved between three
+possibilities and asks for a one word note next time.
+連代理都注意到了，這本身就是一種小小的難堪。其中一個在日誌裡寫著：這次被否決的原因在三種可能之間無法判定，並請求我下次留一個字的註記。</p>
+<p>So my approval rate is not climbing, and I do not think that means I
+am being appropriately careful. I think it means I have been spending
+the most valuable thing in the loop, my own judgment on a specific piece
+of work, and then dropping it on the floor.
+所以我的通過率一直沒有往上爬。我不認為那代表我夠謹慎，我認為那代表：我一直在動用這個迴圈裡最珍貴的資源——我對一件具體作品的判斷——然後把它扔在地上。</p>
+<p>A gate that only stops bad work is overhead. A gate that explains
+itself is the mechanism that ends the gate.
+只會攔下爛東西的關卡，是成本；會解釋自己為什麼攔的關卡，才是那個最終能讓關卡消失的機制。</p>
+<p>That is the part I am building now. I’m building AgentUse,
+open-source infrastructure for autonomous agents, and the work in front
+of me is making an agent learn properly from what its reviewer does at
+the gate, so the loop closes on itself instead of routing through me
+forever. Not so I can say the human is out of the loop. So the human is
+out of the parts that stopped needing one.
+這正是我現在在建的東西。我在做
+AgentUse，一套給自主代理用的開源基礎設施；眼前的工作，是讓代理能真正從審查者在關卡上的行為中學習，好讓迴圈自己閉合，而不是永遠繞經我。不是為了讓我能說「人類已經退出迴圈」，而是為了讓人類退出那些已經不再需要人的環節。</p>
+<p>So: the last time you rejected something an agent made, did you tell
+it why, and could it use what you said on the very next run?
+所以：你上一次否決代理做出來的東西時，有告訴它為什麼嗎？而它能在下一次執行時，就用上你說的話嗎？</p>
+<p><strong>📌 Take Away</strong> - EN: Put the approval gate on the verb
+you cannot undo — not on the smartest agent in the chain. -
+中：審批關卡要放在「收不回來的那個動作」上，而不是放在鏈條裡最聰明的那個代理身上。
+- EN: Don’t chase zero gates; the gate is your only instrument for
+measuring whether the agent is actually improving. -
+中：別追求「零關卡」。關卡是你唯一能量測代理是否真的在進步的儀器。 - EN:
+The comment box is worth more than the approve/reject buttons — a
+rejection without a reason is judgment thrown on the floor. -
+中：留言框比「批准／拒絕」兩顆按鈕更有價值——沒有理由的否決，等於把你的判斷力扔在地上。
+- EN: A gate that only stops bad work is overhead; a gate that explains
+itself is what eventually ends the gate. -
+中：只會攔爛東西的關卡是成本；會解釋自己的關卡，才是終結關卡的機制。</p>
+<hr />
+<h2 id="july-20262026-年-7-月">July 2026｜2026 年 7 月</h2>
+<h3 id="your-agent-is-enforcing-rules-you-never-gave-it"><a
+href="https://aishapedcompany.com/p/your-agent-is-enforcing-rules-you">Your
+Agent Is Enforcing Rules You Never Gave It</a></h3>
+<h3
+id="你的代理正在執行一條你從未給過它的規則">你的代理，正在執行一條你從未給過它的規則</h3>
+<p><em>Jul 27, 2026｜2026 年 7 月 27 日</em></p>
+<p>Claude Code stopped me mid-task last week. It couldn’t do what I’d
+asked, it said, because of a rule. 上週 Claude Code
+在任務中途把我攔了下來。它說，它沒辦法照我要求的做，因為有一條規則。</p>
+<p>Then it quoted the rule back to me, in the same flat certain voice it
+uses for everything.
+接著它把那條規則背給我聽，用的還是它講任何事情時那種平板而篤定的語氣。</p>
+<p>I had never typed that rule anywhere. It came from Claude Code’s own
+memory, which it wrote itself, about me, weeks earlier, without me
+asking. 那條規則我從來沒在任何地方打過。它來自 Claude Code
+自己的記憶——是它幾週前自己寫的、關於我的、我沒要求過的東西。</p>
+<p>The wrong rule wasn’t the unsettling part. The tone was. It was
+exactly as sure of a thing it made up as of the things I sat down and
+decided.
+令人不安的不是那條規則錯了，而是那個語氣。它對「自己編出來的東西」的篤定程度，跟對「我坐下來親自決定的事」一模一樣。</p>
+<p>That matters more than it would have two years ago. LifeHack, the
+company I’ve run for twenty years and once ran with a full editorial and
+marketing team, is becoming an AI-first operation that one person
+carries. 這件事的份量，比兩年前重得多。LifeHack
+是我經營了二十年的公司，曾經有完整的編輯團隊和行銷團隊；現在它正在變成一個由一個人扛著的
+AI 優先組織。</p>
+<p>A rule nobody wrote doesn’t stay in a terminal window anymore. It
+reaches what ships.
+一條沒有人寫過的規則，如今不會只留在終端機視窗裡。它會一路影響到真正出貨的東西。</p>
+<p><strong>The short version｜簡短版</strong></p>
+<p>Any coding agent with a memory feature will write notes about you,
+then quote them back as rules. It can’t separate its own guess from your
+decision, because by the time both load into a session they look the
+same.
+任何具備記憶功能的編程代理，都會寫下關於你的筆記，然後把它們當成規則背給你聽。它無法區分自己的猜測和你的決定，因為當兩者一起載入對話時，看起來根本一模一樣。</p>
+<p>Anthropic saw this coming and shipped a warning in the system prompt,
+the highest-authority text in the stack. The warning loses anyway, to
+notes the model wrote itself. Anthropic
+早就預見了這一點，並在系統提示——整個堆疊中權限最高的文字——裡加了一段警告。但那段警告還是輸了，輸給模型自己寫的筆記。</p>
+<p>It loses for a reason every operator already knows. The warning
+classifies a category. The note names a moment and an action. “We take
+data privacy seriously” never changed anyone’s behavior. “Get sign-off
+before you export a customer list” does.
+它輸的理由，每個實際經營者都懂：警告是在「歸類一個類別」，筆記則是在「指名一個時刻和一個動作」。「我們非常重視資料隱私」從來沒改變過任何人的行為，「匯出客戶名單前先取得簽核」則會。</p>
+<p>So the fix isn’t a stronger rule. It’s a rule with a trigger, plus
+somewhere for firm decisions to graduate to.
+所以解法不是更強硬的規則，而是一條「帶觸發時機」的規則，加上一個讓確定的決策可以「升級」過去的地方。</p>
+<p>Memory offers. Instructions instruct. Only code enforces. Almost
+nothing belongs in the first tier, and most of what you write belongs in
+the second.
+記憶只能「提供建議」，指令才能「下達指示」，只有程式碼能「強制執行」。幾乎沒有東西該待在第一層，而你寫下的大部分內容都屬於第二層。</p>
+<p><strong>Claude Code is always trying to save things about you｜Claude
+Code 一直想把你的事存起來</strong></p>
+<p>Claude Code keeps a memory store on disk, with an index file that
+loads at the start of every session. Claude Code
+在磁碟上維護一個記憶庫，還有一份索引檔會在每次對話開始時載入。</p>
+<p>Useful idea. You want it to stop re-asking things you’ve already
+settled. 這概念本身很有用——你不希望它一再詢問你早已決定過的事。</p>
+<p>But it doesn’t wait for you to decide something is worth keeping. It
+watches the session, notices you did something, and writes a note. Often
+into a category it calls “feedback,” meant to capture how you like to
+work.
+但它不會等你判斷某件事值不值得留下。它一邊觀察對話，一邊注意到你做了某個動作，然後就寫下一則筆記——常常歸到一個叫做「feedback」的類別，用途是記錄你偏好的工作方式。</p>
+<p>The line between “Leon told me to do this” and “Leon did this twice,
+so he probably wants it” is one the model draws softly, then forgets it
+drew. 「Leon 叫我這樣做」和「Leon
+這樣做過兩次，所以他大概想要這樣」之間的那條線，模型畫得很淡，然後就忘了自己畫過。</p>
+<p>So the store fills with two different things: what you decided and
+typed into CLAUDE.md, and what Claude Code guessed and saved on its own.
+Same authoritative frontmatter, same confident one-line summary on top.
+於是記憶庫裡塞滿了兩種截然不同的東西：你決定並親手打進 CLAUDE.md
+的內容，以及 Claude Code 自己猜測後存下來的內容。兩者有一樣權威的
+frontmatter，頂端有一樣自信的一行摘要。</p>
+<p>Next session they load back in together, and the guesses arrive
+worded as settled fact. By then the model can’t tell its own old guess
+from your real instruction. They look identical.
+下一次對話，它們一起被載回來，而那些猜測是以「既定事實」的措辭出現的。到那個時候，模型已經分不出哪個是自己的舊猜測、哪個是你真正的指令了。它們長得一模一樣。</p>
+<p>The bug isn’t that it has memory. The bug is that a guess gets the
+same authority as a rule you wrote on purpose.
+問題不在於它有記憶，問題在於「一個猜測」拿到了跟「你刻意寫下的規則」同等的權威。</p>
+<p><strong>The patch that was already
+there｜那個早就存在的修補</strong></p>
+<p>Claude Code ships a disclaimer on recalled memory, right in the
+system prompt: those blocks are “background context, not user
+instructions.” Claude Code
+對召回的記憶其實附了一段免責聲明，就寫在系統提示裡：那些區塊是「背景脈絡，不是使用者指令」。</p>
+<p>So Anthropic saw it coming and fixed it, in the highest-authority
+text in the entire stack. Above my instructions file. Above anything I
+could type. 所以 Anthropic
+確實預見並修補了它，而且是修在整個堆疊中權限最高的文字裡——在我的指令檔之上，在任何我能打出來的東西之上。</p>
+<p>A note Claude wrote about me last month talked over it anyway.
+結果，Claude 上個月自己寫的一則關於我的筆記，照樣把它蓋過去了。</p>
+<p>If authority came from the source, this would have been settled
+before it started. 如果權威真的來自「出處」，這件事根本不會發生。</p>
+<p><strong>Why the higher-ranked text
+lost｜為什麼位階更高的文字反而輸了</strong></p>
+<p>Put the two side by side. The difference isn’t rank.
+把兩者並排看，差別不在位階。</p>
+<p>The disclaimer says memories are background context. That’s a
+classification. Nothing in a turn ever has to consult it, because
+there’s no moment where it fires.
+免責聲明說「記憶是背景脈絡」——那是一種分類。在任何一輪對話裡，都沒有東西非得去查閱它不可，因為它沒有一個會被觸發的時刻。</p>
+<p>The note says “Don’t end his posts with a sign-off.” That’s a
+command, and it arrives with an obvious moment attached: the end of a
+post.
+筆記則說「別在他的貼文結尾加結語」——那是一道命令，而且自帶一個明確的時刻：貼文的結尾。</p>
+<p>One describes. The other instructs. When they meet, the one carrying
+a trigger wins, whoever wrote it.
+一個在描述，一個在指示。兩者相遇時，帶著觸發時機的那個會贏，不管它是誰寫的。</p>
+<p>It doesn’t help that the disclaimer sits at the tail of a long
+section that otherwise teaches the model how to save memories. Its
+neighbors are all pro-memory. It’s a footnote inside the manual for the
+thing it warns about.
+更不利的是，那段免責聲明擺在一個長章節的尾巴，而那章節通篇都在教模型如何儲存記憶。它的鄰居全都在鼓吹記憶——它等於是「它所警告的那件事」的使用手冊裡的一個註腳。</p>
+<p><strong>The rule that made the problem go
+away｜真正讓問題消失的那條規則</strong></p>
+<p>My instinct was to engineer my way out. Tag every note confirmed or
+inferred, audit the store, reclassify the ones written too broadly. Real
+machinery. It felt responsible.
+我的直覺是用工程手段解決：替每則筆記標上「已確認」或「推論而來」，稽核整個記憶庫，把寫得太寬泛的重新分類。一整套真材實料的機制，感覺很負責任。</p>
+<p>A plain question killed it. If I’m building a system so Claude Code
+knows which of its own memories to trust as rules, I’ve already conceded
+the thing that’s wrong: that the memory store is a place rules can live
+at all. 一個很樸素的問題把它殺死了：如果我正在建一套系統，好讓 Claude
+Code
+知道自己哪些記憶可以當規則來信任，那我等於已經默認了那個真正錯誤的前提——記憶庫是規則可以存放的地方。</p>
+<p>So I deleted the premise instead. What I wrote down first was four
+words: 所以我改成把前提刪掉。我最先寫下的是四個字：</p>
+<p>Memory is never law. 記憶永遠不是法律。</p>
+<p>Not low-priority law. Not law-pending-verification. Everything
+auto-saved is context and hypothesis by definition, however confidently
+it’s phrased.
+不是「低優先權的法律」，也不是「待驗證的法律」。所有自動存下來的東西，按定義就是脈絡與假設，無論措辭聽起來多篤定。</p>
+<p>That dissolved the tagging system I almost built. Nothing left to
+grade, because “is this a rule I must obey” now has the same answer for
+every note.
+這一下就溶解掉我差點蓋起來的標籤系統。沒有東西需要評等了，因為「這是我必須遵守的規則嗎」這個問題，對每一則筆記的答案都一樣。</p>
+<p>Then I caught myself doing the thing I’d just spent four sections
+criticizing. 然後我抓到自己正在做我前面花了四個章節批評的事。</p>
+<p>“Memory is never law” is a classification. It tells the agent what a
+category is. No moment in it, no verb, nothing that fires. I had written
+a better-sounding version of the sentence that already failed.
+「記憶永遠不是法律」本身就是一種分類。它只是告訴代理某個類別是什麼——沒有時刻、沒有動詞、沒有任何會被觸發的東西。我只是把那句早已失敗的話，重寫成一個聽起來更好聽的版本。</p>
+<p>A slogan is a name for a rule. It isn’t the rule.
+口號只是規則的名字，不是規則本身。</p>
+<p>The rule is what happens at assertion time, the moment the agent is
+about to enforce something. Written out so an agent can run it, that
+took two lines, and neither of them is quotable.
+真正的規則，發生在「主張的當下」——也就是代理即將強制執行某件事的那一刻。寫成代理能執行的形式，總共兩行，而且兩行都不適合拿來當金句引用。</p>
+<p><strong>Where the real rules live｜真正的規則住在哪裡</strong></p>
+<p>If memory can’t hold rules, something else has to.
+如果記憶不能承載規則，就得有別的東西來承載。</p>
+<p>Firm preferences graduate to CLAUDE.md. By hand. Promotion, not
+tagging. Whatever stays in memory is the soft tier by default, and you
+never score it, because its location already says what it is.
+確定下來的偏好，要「畢業」升上
+CLAUDE.md，而且是手動升的。是晉升，不是貼標籤。留在記憶裡的，預設就是軟性層級；你永遠不用替它評分，因為它所在的位置已經說明了它是什麼。</p>
+<p>So “Leon seems to like short subject lines” stays in memory and gets
+offered. Never enforced. 所以「Leon
+好像喜歡短的信件主旨」就留在記憶裡，只會被「建議」，永遠不會被「執行」。</p>
+<p>That distinction is worth more than it sounds. An inferred style rule
+doesn’t announce itself the way a bad deploy does. It applies itself
+quietly to everything the fleet drafts, and you find it in something
+that already shipped.
+這個區分的價值比聽起來大。一條推論而來的風格規則，不會像一次爛部署那樣大聲宣告自己；它會安靜地套用到整個代理艦隊寫出來的每一份草稿上，然後你在某個「已經出貨」的東西裡才發現它。</p>
+<p>One caveat, because the docs say it plainly. CLAUDE.md isn’t
+enforcement either. Anthropic’s memory page says Claude treats both
+layers as context, “not enforced configuration.”
+有一個但書，因為官方文件講得很明白：CLAUDE.md
+本身也不是強制執行。Anthropic 的記憶說明頁寫著，Claude
+把這兩層都當成脈絡，「不是被強制執行的設定」。</p>
+<p>That’s right, and it changes nothing above. Neither layer binds. A
+rule with a trigger beats a rule with a label at any tier, and CLAUDE.md
+is just where I keep the ones I wrote on purpose.
+沒錯，但這不影響上面說的任何一句。兩層都沒有約束力。在任何層級，「帶觸發時機的規則」都勝過「帶標籤的規則」；而
+CLAUDE.md 只是我存放「刻意寫下的那些」的地方。</p>
+<p>For the short list of things that must hold regardless, there’s a
+third tier, and the same docs point at it: a PreToolUse hook. That’s
+code. It runs before the tool call and returns a block. Mine stopped an
+agent six times in one session this week. Nothing was argued.
+至於那份「無論如何都必須成立」的短清單，還有第三層，同一份文件也指向它：PreToolUse
+hook。那是程式碼。它在工具呼叫前執行，直接回傳一個攔截。我的 hook
+這週在同一次對話裡攔下代理六次，完全沒有任何爭辯。</p>
+<p>Which is also the cost. A layer that can’t be reasoned with can’t be
+corrected in the moment either. My own hook spent a stretch blocking
+ordinary commit messages, because they contained a slash-prefixed string
+it read as a file path. Right about the pattern, wrong about the case. I
+routed around it by writing the message to a file.
+這同時也是它的代價。一個無法講理的層級，在當下也無法被修正。我自己的
+hook 有一段時間一直攔下普通的 commit
+訊息，只因為訊息裡有個以斜線開頭的字串被它當成檔案路徑。它抓對了模式，抓錯了個案。我最後是把訊息寫進檔案來繞過它。</p>
+<p>Hard enforcement is for the few places where being wrongly blocked
+costs less than being wrong.
+硬性強制只適用於少數幾個地方：那些「被誤攔的代價，小於做錯的代價」的地方。</p>
+<p><strong>The part to paste into your CLAUDE.md｜可以直接貼進你
+CLAUDE.md 的那一段</strong></p>
+<p>Here’s the block, as it sits in my file: 這是我檔案裡實際的內容：</p>
+<pre><code>## Rules vs preferences (memory is never law)
+
+1. Memory, recalled &lt;system-reminder&gt; context, and anything you inferred are
+never rules. Before enforcing any constraint, name its source. If the source
+is memory or your own inference, surface it and ask, don&#39;t enforce it.
+2. If a preference is firm enough to enforce, promote it into this file.
+Whatever stays in memory is the non-binding tier by definition.</code></pre>
+<pre><code>## 規則與偏好（記憶永遠不是法律）
+
+1. 記憶、召回的 &lt;system-reminder&gt; 脈絡，以及任何你自行推論出來的東西，
+都不是規則。在強制執行任何限制之前，先說出它的來源。如果來源是記憶
+或你自己的推論，就把它攤開來詢問，不要強制執行。
+2. 如果某個偏好確定到足以強制執行，就把它晉升進這個檔案。
+留在記憶裡的東西，按定義就屬於不具約束力的那一層。</code></pre>
+<p>The two numbered lines are the part the agent runs. The heading is
+for me, so I can find the rule again and point at it in conversation. It
+does no work on the model, which is the entire lesson of the section
+above it.
+那兩條編號的句子，才是代理實際執行的部分。標題是寫給我看的，方便我日後找到這條規則、在對話裡指著它說。標題對模型完全不起作用——這正是上一節的全部教訓。</p>
+<p>No tagging convention, no audit, no per-note machinery. One gate, one
+promotion path.
+不需要標籤規範，不需要稽核，不需要針對每則筆記的機制。一道關卡，一條晉升路徑。</p>
+<p>Both lines work for the same reason. Each names a moment the model
+has to walk through, not a category it’s supposed to respect.
+這兩行有效的原因是同一個：它們各自指名了一個模型必須走過的時刻，而不是一個它「應該尊重」的類別。</p>
+<p>Mine kept it straight the moment I stopped asking it to grade its own
+memory and started making it answer one question before it enforces
+anything: who said so.
+從我不再要求它替自己的記憶評分、而改成要求它在強制執行任何事之前先回答一個問題的那一刻起，它就再也沒搞混過。那個問題是：這是誰說的？</p>
+<p><strong>📌 Take Away</strong> - EN: An agent with memory cannot tell
+its own guess from your decision — both load looking identical. -
+中：有記憶的代理分不出「自己的猜測」和「你的決定」——兩者載入時長得一模一樣。
+- EN: A rule with a trigger beats a rule with a label, no matter which
+one has higher authority. -
+中：帶「觸發時機」的規則，永遠勝過帶「標籤」的規則，無論哪一個位階更高。
+- EN: Three tiers: memory offers, instructions instruct, only code
+(hooks) enforces. -
+中：三個層級——記憶只能建議、指令負責指示、只有程式碼（hook）能強制執行。
+- EN: Don’t grade your memories; delete the premise that rules can live
+there at all, and promote firm ones by hand. -
+中：別替記憶評等級。直接刪掉「規則可以住在記憶裡」這個前提，把確定的偏好手動晉升上去。
+- EN: Before enforcing anything, the agent must answer one question: who
+said so? -
+中：在強制執行任何事之前，代理必須先回答一個問題：這是誰說的？</p>
+<hr />
+<h3 id="i-stopped-hand-writing-my-agents"><a
+href="https://aishapedcompany.com/p/i-stopped-hand-writing-my-agents">I
+Stopped Hand-Writing My Agents</a></h3>
+<h3 id="我不再親手撰寫我的代理了">我不再親手撰寫我的代理了</h3>
+<p><em>Jul 21, 2026｜2026 年 7 月 21 日</em></p>
+<p>One of my agents has a rule in its memory file that has fired seven
+times: when a post’s urgency depends on a bug being unresolved, check
+whether the fix already shipped before drafting the warning. I never
+wrote that rule. I rejected one stale draft at the approval gate, the
+agent turned my comment into the rule, and now every future run starts
+already knowing.
+我有一個代理，記憶檔裡有條規則已經觸發過七次：當一篇貼文的急迫性建立在「某個
+bug
+尚未修復」上時，先確認修補是否已經上線，再動筆寫警告。這條規則我從沒寫過。我只是在審批關卡上退回了一份過時的草稿，代理把我的留言變成了規則，從此每一次執行都是從「已經知道這件事」開始。</p>
+<p>That rule is the small visible end of the workflow I want to walk
+through. Most people make the same corrections to their AI over and
+over, because the chat forgets and the effort evaporates. This setup is
+built so a fix I make once keeps working while I’m not there: I don’t
+hand-write agents anymore. A code agent writes them, and the agents
+improve themselves between edits.
+那條規則，只是我想介紹的這套工作流露出水面的一小角。大多數人一次又一次對
+AI
+做同樣的修正，因為對話會遺忘，力氣就這樣蒸發掉。這套設定的目的，是讓我修正一次的東西，在我不在場時繼續生效：我不再親手寫代理了。由一個編程代理來寫它們，而這些代理會在兩次編輯之間自己變好。</p>
+<p><strong>The Setup｜這套架構</strong></p>
+<p>Every agent I run is a markdown file. YAML frontmatter for the
+contract (model, schedule, tool allowlists, approval gate), plain
+English for the job. The content repo alone holds 46 of these files: SEO
+rank tracking, newsletter measurement, support drafting, publishing
+pipelines. 我跑的每一個代理都是一個 markdown 檔案。YAML frontmatter
+負責契約（模型、排程、工具白名單、審批關卡），純英文描述負責工作內容。光是內容倉庫裡就有
+46 個這樣的檔案：SEO 排名追蹤、電子報成效量測、客服草稿、發布流程。</p>
+<p>The fleet is not a demo. It’s the middle of a real transformation:
+LifeHack, the company I’ve run for twenty years, once with a full
+editorial and marketing team, is becoming an AI-first operation that one
+person carries. Most of these agents do work that used to be someone’s
+job.
+這支艦隊不是展示品，它正處在一場真實轉型的中途：LifeHack，我經營了二十年、曾經擁有完整編輯與行銷團隊的公司，正在變成由一個人扛著的
+AI 優先組織。這些代理裡，大部分做的都是過去某個人的工作。</p>
+<p>I don’t open those files in an editor and type. I open Claude Code,
+or Codex when I want a different set of instincts on a gnarly one, and
+describe the agent I need. The code agent writes the file, runs it once,
+reads the session log, and fixes what broke.
+我不會打開編輯器逐字敲那些檔案。我打開 Claude Code——遇到棘手的就換
+Codex，換一組不同的直覺——然後描述我需要什麼樣的代理。編程代理會寫出檔案、跑一次、讀執行日誌，然後修好壞掉的地方。</p>
+<p>That part is not novel. Everyone uses code agents to write code now.
+The part worth stealing is how the code agent knows what a good agent
+file looks like.
+這部分沒什麼新意，現在人人都用編程代理寫程式。值得偷學的，是「編程代理如何知道一份好的代理檔長什麼樣」。</p>
+<p><strong>The Manual Lives in the Tool｜手冊住在工具裡</strong></p>
+<p>My first instinct was the obvious one: write a long skill for Claude
+Code explaining AgentUse, the frontmatter fields, the gotchas. A frozen
+copy of the docs, pasted into the prompt. 我的第一直覺很直觀：替 Claude
+Code 寫一份長長的 skill，解釋 AgentUse、frontmatter
+欄位、各種坑。也就是一份被凍結的文件副本，貼進提示裡。</p>
+<p>That copy starts rotting the day you write it. Field names change.
+New gotchas surface. The skill says one thing, the installed version
+does another, and the code agent confidently writes agents for a runtime
+that no longer exists.
+那份副本從你寫下它的那天就開始腐爛。欄位名稱會變，新的坑會冒出來。skill
+說的是一套，安裝的版本做的是另一套，於是編程代理就自信滿滿地替一個「已經不存在的執行環境」寫代理。</p>
+<p>So the skill I actually use is a stub. Its core instruction is one
+command: <code>agentuse skills get creator</code>. The AgentUse CLI
+serves its own authoring manual, matched to the installed version.
+Before Claude Code writes or edits any agent, it pulls the current
+instructions from the binary that will run the file. When I upgrade the
+runtime, the manual upgrades with it. Nothing to sync, nothing to rot.
+所以我實際使用的 skill
+只是一個殼。它的核心指令只有一行命令：<code>agentuse skills get creator</code>。AgentUse
+CLI 會自己供應撰寫手冊，且與已安裝的版本一致。在 Claude Code
+寫或改任何代理之前，它會先從「將來要執行這個檔案的那個二進位檔」拉取當前的指示。當我升級執行環境，手冊也跟著升級。沒有東西需要同步，也沒有東西會腐爛。</p>
+<p>The stub itself installs with one command:
+這個殼本身用一行命令就能裝好：</p>
+<pre><code>npx skills add agentuse/agentuse</code></pre>
+<p>The same file works in Claude Code, Codex, Cursor, and anything else
+that speaks Agent Skills. That’s why switching code agents costs me
+nothing: the knowledge was never in the assistant. It’s in the CLI they
+all ask. 同一份檔案在 Claude Code、Codex、Cursor，以及任何看得懂 Agent
+Skills
+的工具上都能用。這就是為什麼換編程代理對我而言零成本：知識從來就不在助理身上，而在那個它們全都會去詢問的
+CLI 裡。</p>
+<p>This matters even if you never ship a framework yourself. When your
+code agent builds on any tool, don’t let it work from its training-data
+memory of the docs, and don’t paste frozen docs into a prompt either.
+Have it pull the current manual from the installed tool. And when you’re
+choosing what to build on, prefer tools that can serve their own.
+就算你自己永遠不會發布任何框架，這件事一樣重要。當你的編程代理要基於任何工具開發時，別讓它靠「訓練資料裡對文件的記憶」工作，也別把凍結的文件貼進提示。讓它從已安裝的工具本身拉取當前手冊。而在選擇技術基礎時，優先挑那些「能自己供應手冊」的工具。</p>
+<p><strong>What the Code Agent Writes｜編程代理寫出什麼</strong></p>
+<p>The manual pushes one discipline hard: hard-code the invariants,
+delegate the judgment. The agent file is re-read on every step, so every
+line costs attention. Pin down only what must never drift: the approval
+gate, the exact commands it may run, the file paths it may touch, the
+output shape. Leave the rest to the model.
+這份手冊強力推行一條紀律：把不變量寫死，把判斷交出去。代理檔在每一步都會被重讀一次，所以每一行都在消耗注意力。只釘死那些絕不能漂移的東西：審批關卡、它能執行的確切命令、它能碰的檔案路徑、輸出的格式。其餘的交給模型。</p>
+<p>A real file from the fleet, for an agent that drafts posts for my
+review, pins exactly that: an Opus model with reasoning set high,
+approval: true, a bash allowlist a few commands long, and a guardrails
+section that opens “hard - never relax.” One guardrail cites its own
+postmortem inline: a runtime race once let sibling tool calls fire while
+the approval gate was still pending, so the rule now says the gate must
+stand alone, with the incident date attached.
+艦隊裡有一個真實的檔案，屬於一個替我起草貼文的代理，釘死的正是這些：Opus
+模型、推理強度設高、approval: true、一份只有幾條命令的 bash
+白名單，以及一個開頭寫著「硬性——永不放寬」的護欄章節。其中一條護欄在行內引用了自己的事故檢討：曾經有一次執行環境的競態，讓同層的工具呼叫在審批關卡還懸而未決時就先發動了；所以現在規則寫著「關卡必須單獨存在」，並附上事故日期。</p>
+<p>A human wrote almost none of that. Claude Code wrote it, then rewrote
+it after real runs. The incident citation is the point: the file carries
+its own case law. 這些幾乎沒有一句是人類寫的。是 Claude Code
+寫的，然後在真實執行之後又改寫了它。事故引用正是重點所在：這個檔案帶著它自己的判例法。</p>
+<p><strong>The Agents Write Back｜代理會回頭寫東西</strong></p>
+<p>Creation is half the loop. The other half runs while I’m not looking.
+建立只是迴圈的一半，另一半在我沒看著的時候運作。</p>
+<p>Each agent has <code>learning: true</code> in its frontmatter, which
+does two things: capture lessons after a run, and inject stored lessons
+into the prompt before the next one. Lessons arrive from three sources.
+The agent’s own self-evaluation. My comments at the approval gate,
+promoted into rules. And rules I save by hand. 每個代理的 frontmatter
+裡都有
+<code>learning: true</code>，它做兩件事：執行後擷取教訓，以及在下一次執行前把已存的教訓注入提示。教訓有三個來源——代理自己的自我評估、我在審批關卡上的留言（被晉升成規則），以及我手動存下的規則。</p>
+<p>Across the content fleet that’s 281 entries in 19 learnings files,
+each tagged with a confidence score and a count of how often it has
+applied. The stale-warning rule from the opening has applied seven
+times. Another taught an agent to check whether the store lock it’s
+waiting on belongs to a crashed process fifteen hours dead, instead of
+queuing behind a ghost. My favorite one is a guardrail an agent earned
+under revision pressure: it had turned a source author’s practice into
+“the habit I trust now,” a fabricated personal claim, and the lesson it
+kept says sounding more personal is never worth inventing a personal
+fact. 整個內容艦隊加起來，是 19 個 learnings 檔案裡的 281
+條記錄，每一條都標著信心分數，以及被套用過幾次的計數。開頭那條「過時警告」的規則已被套用七次。另一條教會某個代理：在等待儲存鎖時，先確認那個鎖是不是屬於一個已經死了十五小時的崩潰行程，而不是傻傻排在一個幽靈後面。我最喜歡的一條，是某個代理在改稿壓力下換來的護欄：它把某位原作者的做法寫成了「我現在信任的習慣」——一個捏造出來的個人陳述；而它留下的教訓是：為了讓文字聽起來更有個人味，永遠不值得去發明一個關於自己的事實。</p>
+<p>The runtime resolves conflicts with a strict precedence: agent
+instructions first, then learned guidelines, then skills, then reference
+files. Learnings override skill defaults. That ordering is what makes
+correction stick. I can fix a behavior once, at the gate, in one
+sentence, and the fix outranks the shared craft files every run after.
+執行環境用一套嚴格的優先序來解決衝突：代理指令最優先，其次是學到的準則，再來是
+skills，最後是參考檔案。學到的教訓會覆蓋 skill
+的預設值。正是這個排序，讓修正得以生根。我可以在關卡上、用一句話、修正一個行為一次，而這個修正在之後每一次執行都壓過共用的技藝檔案。</p>
+<p><strong>Closing the Loop Between the
+Two｜把兩半接成一個迴圈</strong></p>
+<p>None of this needs me. A lesson captured on Tuesday’s run applies
+itself on Wednesday’s, injected automatically before the agent starts.
+For most lessons, local, situational, cheap, that is the right home and
+the loop ends there. But when a lesson proves permanent, when it keeps
+applying run after run, or reveals the agent’s structure is wrong,
+auto-injection stops being the answer.
+這一切都不需要我。週二執行時擷取到的教訓，會在週三自動套用，在代理啟動前自動注入。對大多數教訓——局部的、情境性的、廉價的——那就是它們正確的歸宿，迴圈到此為止。但當一條教訓被證明是永久性的，當它一次又一次持續適用，或者它揭露了代理的結構本身有問題時，自動注入就不再是答案了。</p>
+<p>That’s when the two halves meet. I open Claude Code, point it at the
+agent and its learnings file, and have it merge the permanent lessons
+into the agent’s own instructions, then prune the entries it absorbed.
+My git log is full of commits like “bake in this run’s lessons for a
+clean next demo.” That particular commit exists because a 119KB Amazon
+page stalled a cheap model mid-run: the agent file now tells its builds
+to bound large pages, and I learned to validate any network agent with
+one real run, because health checks and mock runs miss page size,
+latency, and blocked sources every time. There’s even a commit
+correcting a learning that was itself wrong: the agent had blamed a port
+conflict for a failure that was actually Chrome auto-updating underneath
+it. Memory gets edited, not just appended.
+這時候，兩半才真正接上。我打開 Claude Code，讓它看著那個代理和它的
+learnings
+檔案，把永久性的教訓併入代理自己的指令，然後把已吸收的條目刪掉。我的 git
+log 裡滿是這種
+commit：「把這次執行的教訓烘進去，好讓下次示範乾淨一點。」那個 commit
+之所以存在，是因為一個 119KB 的 Amazon
+頁面在執行途中卡死了一個廉價模型：現在代理檔會告訴它的建構流程要對大型頁面設限；而我學到的是，任何會連網的代理都必須用一次「真實執行」來驗證，因為健康檢查和模擬執行每次都會漏掉頁面大小、延遲和被封鎖的來源。甚至還有一個
+commit
+是在修正「一條本身就錯了的教訓」：代理把一次失敗歸咎於連接埠衝突，實際上是
+Chrome 在底下自動更新。記憶是會被修改的，不只是被追加。</p>
+<p>So the full loop: a code agent writes the agent from the runtime’s
+own live manual. The agent runs, and writes down what it learns from
+failures and from my gate comments. Learnings override defaults
+immediately. And when a lesson proves structural, the code agent folds
+it into the file and the queue empties. Each pass, the file gets shorter
+and harder to fool.
+所以完整的迴圈是：編程代理依據執行環境自己的即時手冊，寫出代理。代理執行，並把它從失敗和我的關卡留言中學到的東西寫下來。學到的教訓立刻覆蓋預設值。而當某條教訓被證明是結構性的，編程代理就把它折進檔案裡，佇列隨之清空。每繞一圈，這份檔案就更短一點，也更難被騙一點。</p>
+<p>I’m building AgentUse, open-source infrastructure for autonomous
+agents, and the learning capture, the approval gates, and the
+self-serving manual above are all part of it. But the loop doesn’t
+depend on my stack. It depends on the three pieces existing at all: a
+live manual, a memory the runtime actually injects, and a scheduled
+appointment between your code agent and that memory. 我在做
+AgentUse，一套給自主代理的開源基礎設施；上面講的教訓擷取、審批關卡、自我供應的手冊，全都是它的一部分。但這個迴圈並不依賴我的技術棧，它只依賴那三個元件的存在：一份即時的手冊、一份執行環境會真正注入的記憶，以及你的編程代理與那份記憶之間一個排定好的約會。</p>
+<p>This week, take one agent, or one prompt you keep re-fixing, and give
+it a memory file the next run actually reads. Then put thirty minutes on
+the calendar to fold what accumulates back into the prompt. The first
+version of an agent is a guess. The file that’s been through this loop a
+dozen times is the only spec I trust.
+這禮拜，挑一個代理，或一個你老是要重複修正的提示，給它一份「下次執行真的會讀」的記憶檔。然後在行事曆上排三十分鐘，把累積起來的東西折回提示裡。代理的第一版是一個猜測；跑過這個迴圈十幾遍的那份檔案，才是我唯一信任的規格書。</p>
+<p><strong>📌 Take Away</strong> - EN: Don’t hand-write agents — have a
+code agent write them from the runtime’s own live manual, never from
+frozen pasted docs. -
+中：別再親手寫代理——讓編程代理依據執行環境自己供應的即時手冊來寫，絕不要用貼上去的凍結文件。
+- EN: Hard-code the invariants (gate, allowed commands, paths, output
+shape); delegate the judgment to the model. -
+中：把不變量寫死（關卡、可用命令、路徑、輸出格式），把判斷交給模型。 -
+EN: A correction is only worth making once if the runtime injects it
+into the next run automatically. -
+中：一個修正要「只做一次就夠」，前提是執行環境會自動把它注入下一次執行。
+- EN: Learnings must outrank shared defaults, or your corrections never
+stick. -
+中：學到的教訓必須位階高於共用預設值，否則你的修正永遠生不了根。 - EN:
+When a lesson proves permanent, fold it back into the agent file —
+memory gets edited, not just appended. -
+中：當一條教訓被證明是永久的，就把它折回代理檔案裡——記憶是要被修改的，不只是被追加。</p>
+<hr />
+<h3 id="the-five-shapes-of-an-agent-fleet"><a
+href="https://aishapedcompany.com/p/the-five-shapes-of-an-agent-fleet">The
+Five Shapes of an Agent Fleet</a></h3>
+<h3 id="代理艦隊的五種形態">代理艦隊的五種形態</h3>
+<p><em>Jul 16, 2026｜2026 年 7 月 16 日</em></p>
+<p>A team of people used to run LifeHack. Today the company runs on
+agents, and I’m the only human left in the loop. LifeHack
+過去是由一支團隊在運作的。今天，這家公司靠代理運轉，而我是迴圈裡僅存的人類。</p>
+<p>The fleet is 129 agents at last count. They write, research, measure,
+render video, draft support replies, watch markets. Most of them came
+out of rebuilding LifeHack into an AI-first operation; the same patterns
+now run my consulting pipeline and my trading watchlists too. I never
+designed a taxonomy for any of it. But this week I audited the whole
+fleet, and every agent had settled into one of five shapes. Not roughly
+five. Five, with no stragglers: the ones that didn’t fit cleanly turned
+out to be misbuilt, and each was drifting toward one of the shapes
+anyway. 最近一次盤點，艦隊有 129
+個代理。它們寫作、研究、量測、算圖出片、起草客服回覆、盯市場。大部分是在把
+LifeHack 重建成 AI
+優先組織的過程中長出來的；如今同一批模式也在跑我的顧問業務流程和交易觀察清單。我從來沒有替它們設計過任何分類法。但這週我盤點了整支艦隊，發現每一個代理都已經沉澱成五種形態中的一種。不是「大約五種」，是五種，一個掉隊的都沒有：那些套不乾淨的，後來都證明是蓋錯了，而且每一個本來就正在往其中某一種形態漂移。</p>
+<p>That’s worth more than a tidy diagram. It means agent architecture
+isn’t a blank canvas where every pipeline is a fresh design decision. A
+few properties of the work generate the structure, the same way load and
+span generate a bridge. Once you can read those properties, the next
+agent designs itself. And if you’re rebuilding a human-run company into
+an agent-run one, as I did, the five shapes are the whole org chart.
+這件事的價值遠大於一張漂亮的架構圖。它意味著：代理架構不是一張空白畫布、每條流程都得重新做一次設計決策。工作本身的幾個性質會自動生成結構，就像載重與跨距會生成一座橋。一旦你讀得懂那些性質，下一個代理就會自己設計自己。而如果你正像我一樣，把一家由人運作的公司重建成由代理運作的公司，這五種形態就是全部的組織圖。</p>
+<p><strong>The Three Questions｜三個問題</strong></p>
+<p>Three questions about the work decide which shape an agent takes.
+關於工作本身的三個問題，決定了一個代理會長成哪種形態。</p>
+<p>Does it change anything outside my system? An agent that only reads,
+measures, or writes internal files can be wrong cheaply. An agent that
+posts, sends, or schedules cannot. This question decides whether the
+structure needs an approval gate, a point where the loop stops and waits
+for a named person, and where that gate goes: directly in front of the
+action you can’t take back.
+它會改變我系統之外的任何東西嗎？只讀取、量測、或寫內部檔案的代理，出錯的代價很低；會發布、寄送、或排程的代理則不然。這個問題決定了結構需不需要審批關卡——一個讓迴圈停下來、等待某個具名的人的點——以及那個關卡該擺在哪裡：就擺在那個你收不回來的動作正前方。</p>
+<p>Does the draft keep overnight? A reply to a live conversation is
+stale in hours. A rendered video is exactly as good next Tuesday.
+Perishable work fuses creation and publishing into one run. Storable
+work lets you split them, and the split is where most of the interesting
+structure lives.
+這份草稿放得過夜嗎？一則對進行中對話的回覆，幾小時就餿了；一支算好的影片，下週二一樣好用。會腐壞的工作，會把「創造」和「發布」熔進同一次執行；可儲存的工作則允許你把它們拆開——而大部分有趣的結構，就住在那個拆分處。</p>
+<p>How many commitments are in the work? Posting a reply is one
+commitment. Shipping a blog post is two: putting a draft up for review
+under my name, then making it public. Each commitment is a separate
+decision, and separate decisions want separate stops.
+這份工作裡包含幾次「承諾」？發一則回覆是一次承諾。出一篇部落格文章是兩次：先以我的名義把草稿送審，再把它公開。每一次承諾都是一個獨立的決定，而獨立的決定想要獨立的停靠點。</p>
+<p>Ask those three questions of any job you’re handing to an agent, and
+one of five shapes falls out.
+對任何你要交給代理的工作問這三個問題，五種形態中的一種就會自己掉出來。</p>
+<p><strong>Shape 1: The Worker｜形態一：工人</strong></p>
+<p>Reads, researches, measures, summarizes, writes internal state. No
+outside mutation, so no gate, no store, no manager. A scout that flags
+conversations worth joining. A measurement agent that pulls last week’s
+rankings. If one does its job badly, I delete a file. In a human org,
+this is the analyst: the research that’s on your desk each morning, no
+signature required.
+讀取、研究、量測、摘要、寫入內部狀態。不改變外部世界，所以不需要關卡、不需要倉庫、不需要管理者。一個標記出「值得加入的對話」的偵察兵；一個拉取上週排名的量測代理。如果它做得爛，我刪掉一個檔案就好。在人類組織裡，這就是分析師：每天早上出現在你桌上的研究報告，不需要任何人簽名。</p>
+<p>This is most of my fleet. Of my 129 agents, 106 never stop for a
+human, and the bulk of those are workers. That ratio is the point.
+Workers with no ceremony around them are what keep the ceremony
+meaningful everywhere else. If every agent stopped for me, approving
+would turn into a habit, and habit is where judgment goes to die.
+這是我艦隊的大宗。129 個代理裡，有 106
+個從不為人類停下，其中絕大多數是工人。這個比例正是重點：正因為工人身上沒有任何儀式，其他地方的儀式才保得住意義。如果每個代理都要為我停下來，批准就會淪為習慣，而習慣正是判斷力去送死的地方。</p>
+<p><strong>Shape 2: The Correspondent｜形態二：特派記者</strong></p>
+<p>One agent creates one perishable thing and publishes it in the same
+run. Drafting and posting can’t be separated, because the draft dies
+overnight. So the whole structure is a single file: find the target,
+write the draft, stop at the gate, post on approval. My reply agents and
+news-reaction agents are all this shape.
+一個代理在同一次執行裡，創造一件會腐壞的東西並發布它。起草和發布無法分離，因為草稿放過夜就死了。所以整個結構就是單一檔案：找目標、寫草稿、在關卡停下、獲准後發布。我的回覆代理和新聞反應代理全都是這個形態。</p>
+<p>In a human org, this is the correspondent: finds the story, files it,
+and it runs today with an editor’s sign-off, because by tomorrow it
+isn’t a story. The gate is inline, one line before the irreversible
+send. There’s nowhere else it could go.
+在人類組織裡，這就是特派記者：找到故事、發回稿件，經編輯簽核後今天就見報，因為到了明天它就不是新聞了。關卡是內嵌的，就在那個不可逆的發送動作前一行。它不可能擺在別的地方。</p>
+<p><strong>Shape 3: The Dispatcher｜形態三：調度者</strong></p>
+<p>A manager that owns strategy and cadence, decides which agent runs
+today, and delegates. It looks senior, but notice what it never does:
+touch the outside world. Routing is reversible. Delegating is
+reversible. So the dispatcher itself carries no gate; every agent it
+dispatches keeps its own.
+一個掌管策略與節奏的管理者，決定今天哪個代理該跑，然後把工作交派下去。它看起來位階很高，但注意它從不做的事：碰觸外部世界。路由是可逆的，交派是可逆的。所以調度者本身不帶關卡；它派出去的每個代理各自保有自己的關卡。</p>
+<p>In a human org, this is the chief of staff: decides what gets done
+this week, and does none of it personally. The shape exists to hold the
+judgment that doesn’t belong in any single agent below it: how often to
+engage, which mix of activities, when to stand down.
+在人類組織裡，這就是幕僚長：決定這週要完成什麼，但一件都不親自做。這個形態存在的目的，是收容那些不屬於底下任何單一代理的判斷：多久出手一次、活動的配比如何、什麼時候該按兵不動。</p>
+<p><strong>Shape 4: The Inventory
+Pipeline｜形態四：庫存型產線</strong></p>
+<p>When the artifact keeps, you can split creation from publishing, and
+the structure grows a warehouse in the middle.
+當產出可以保存時，你就能把創造和發布拆開，而結構會在中間長出一座倉庫。</p>
+<p>LifeHack’s short-video pipeline is the full version. Creator agents
+run on a schedule with no human anywhere: write the script, render the
+video with voiceover and captions, verify their own output (aspect
+ratio, duration, audio present), and file the result in a store. A
+manager runs separately and makes one decision per run: buffer below
+five, create more; stock ready and the calendar thin, publish one. Only
+the publish path stops for me, one gate at the exit, and what I approve
+there is whole: this video, this copy per platform, this slot across
+four channels. LifeHack
+的短影音產線是完整版。創作代理照排程執行，全程沒有任何人類：寫腳本、算出帶旁白和字幕的影片、自行驗證輸出（畫面比例、長度、是否有音軌），然後把成品歸檔進倉庫。管理者獨立執行，每次只做一個決定：庫存低於五支就多做幾支；有現貨而行事曆很空，就發一支。只有發布路徑會為我停下——出口處一道關卡——而我在那裡批准的是一個完整的包裹：這支影片、每個平台的這段文案、四個頻道的這個時段。</p>
+<p>The store is what earns the extra moving parts, in one specific
+place: rejection. When I reject a video at the gate with “the text is
+cropped on slide three,” the manager doesn’t shrug and end. It
+re-delegates to the creator in a re-create mode: same message, same
+audience, new render fixing the defect, and the new video comes back
+through the same gate. My rejection became an instruction instead of an
+ending.
+倉庫之所以值得多出這些活動零件，關鍵只在一個地方：被退件的時候。當我在關卡上以「第三張投影片的文字被裁掉了」退回一支影片，管理者不會聳聳肩就結束。它會以「重製模式」重新交派給創作代理：同樣的訊息、同樣的受眾、重新算一版修好那個瑕疵，然後新影片再度回到同一道關卡。我的否決變成了一道指示，而不是一個句點。</p>
+<p>One unglamorous component makes it safe: state. An item mid-approval
+is marked, so an overlapping scheduled run sees the mark and stands down
+instead of double-publishing. Boring, structural, and the difference
+between a pipeline and a race condition.
+有一個毫不起眼的元件讓這一切安全：狀態。正在審批中的項目會被標記，所以一個時間重疊的排程執行看到標記就會退場，而不是重複發布。無聊、結構性，卻正是「產線」和「競態條件」之間的差別。</p>
+<p>In a human org, this is the production studio: a small team builds
+ahead of schedule, and one editor at the exit decides what airs.
+在人類組織裡，這就是製作工作室：一支小團隊超前進度地生產，出口處由一位編輯決定什麼上檔。</p>
+<p><strong>Shape 5: The Staged Pipeline｜形態五：分段式產線</strong></p>
+<p>Some work has more than one commitment in it, and each commitment
+ends a stage. LifeHack’s blog pipeline commits twice: a writer agent
+stops for approval on the draft, a release agent stops again before the
+post goes live. The LifeHack newsletter, the loop a team once produced
+by hand, runs the same way, and I’ve torn that one down in full before:
+pick the angle at the first stop, approve the rendered send at the
+second. 有些工作裡包含不只一次承諾，而每一次承諾就結束一個階段。LifeHack
+的部落格產線承諾兩次：寫作代理在草稿處停下等待批准，發布代理在文章上線前再停一次。LifeHack
+的電子報——那個曾經由一整支團隊手工產出的迴圈——也用同樣的方式運作，而我先前完整拆解過它：第一站挑角度，第二站批准那封算好的實際發信。</p>
+<p>The shape looks like several agents chained together, but the chain
+isn’t decoration. Approving a draft and approving a release are
+different decisions made at different times with different information.
+Collapsing them into one stop means one of them is being made blind. An
+exec would recognize this instantly: it’s the two-signature process, and
+the second signature exists for the same reason it does on a wire
+transfer.
+這個形態看起來像是好幾個代理串在一起，但那條鏈不是裝飾。批准草稿和批准發布，是在不同時間、根據不同資訊所做的不同決定。把它們壓縮成一站，等於其中一個決定是矇著眼做的。任何主管一眼就看得懂：這就是雙簽核流程，而第二個簽名存在的理由，跟電匯上第二個簽名存在的理由完全相同。</p>
+<p><strong>Reading Your Own Fleet｜讀懂你自己的艦隊</strong></p>
+<p>The taxonomy pays off in two directions.
+這套分類法在兩個方向上都有回報。</p>
+<p>Forward, it’s a design shortcut. Before building anything, ask the
+three questions. Nothing mutates: worker, and skip the ceremony. Mutates
+and perishable: correspondent, gate inline. Mutates and storable:
+inventory pipeline, gate at the exit. Multiple commitments: staged, one
+gate per stage. Strategy with no mutation of its own: dispatcher. The
+structure is decided before the first line is written.
+往前看，它是設計的捷徑。在動手蓋任何東西之前，先問那三個問題。什麼都不改變：工人，省掉所有儀式。會改變外部且會腐壞：特派記者，關卡內嵌。會改變外部但可儲存：庫存型產線，關卡設在出口。多次承諾：分段式，每階段一道關卡。只有策略、自己不改變任何東西：調度者。結構在第一行還沒寫之前就已經決定了。</p>
+<p>Backward, it’s a diagnostic. Every agent of mine that felt wrong in
+practice turned out to be wearing the wrong shape. A correspondent
+quietly doing strategy that belonged in a dispatcher. A creator with a
+gate bolted on that gated nothing irreversible, training me to click
+approve without reading. The fix each time was boring: move the work to
+the shape the three questions had been pointing at all along.
+往回看，它是診斷工具。我每一個實際跑起來「感覺不對」的代理，最後都證明是穿錯了形態。一個特派記者悄悄在做本該屬於調度者的策略工作；一個創作代理硬裝上一道關卡，卻沒有攔住任何不可逆的東西，反而訓練我養成不看就按批准的習慣。每一次的修法都很無聊：把工作搬到那三個問題一直指著的那個形態上。</p>
+<p>The good news, if you want to run this way: none of the shapes needs
+custom infrastructure. I’m building AgentUse, open-source infrastructure
+for autonomous agents, and every shape in this piece is a few lines of
+configuration in it. A worker is a markdown agent file with a schedule.
+A correspondent adds an approval gate. A dispatcher declares its
+subagents. An inventory pipeline adds a shared store. The newsletter’s
+two stops live in one file. That’s the entire stack behind the 129. And
+when a team wants this built for them rather than by them, that’s
+AgentUse Studio.
+好消息是，如果你想這樣運作：這些形態沒有一個需要客製化的基礎設施。我在做
+AgentUse，一套給自主代理的開源基礎設施，而這篇文章裡的每一種形態，在它裡面都只是幾行設定。工人是一個帶排程的
+markdown
+代理檔；特派記者多加一道審批關卡；調度者宣告它的子代理；庫存型產線多加一個共用倉庫；電子報的兩個停靠點住在同一個檔案裡。這就是那
+129
+個代理背後的全部技術棧。而當某個團隊希望有人「幫他們建」而不是「他們自己建」時，那就是
+AgentUse Studio。</p>
+<p>If you run agents, classify your fleet this week. One line per agent:
+which shape, and which question put it there. Any agent you can’t place
+is the one to look at first.
+如果你在跑代理，這禮拜就替你的艦隊分類。每個代理一行：屬於哪個形態，以及是哪個問題把它放到那裡的。任何你歸不了類的代理，就是你該最先檢視的那一個。</p>
+<p>Five shapes. Three questions. The rest is components.
+五種形態。三個問題。剩下的都只是零件。</p>
+<p><strong>📌 Take Away</strong> - EN: Three questions decide an agent’s
+structure: does it mutate the outside world, does the artifact keep
+overnight, and how many commitments are in the work. -
+中：三個問題決定一個代理的結構——它會不會改變外部世界、產出能不能放過夜、這份工作裡包含幾次承諾。
+- EN: Five shapes, no exceptions: Worker, Correspondent, Dispatcher,
+Inventory Pipeline, Staged Pipeline. -
+中：五種形態，沒有例外：工人、特派記者、調度者、庫存型產線、分段式產線。
+- EN: Keep most agents gate-free — if every agent stops for you,
+approving becomes a habit, and habit is where judgment dies. -
+中：讓大多數代理沒有關卡——如果每個代理都為你停下，批准就會變成習慣，而習慣正是判斷力送死的地方。
+- EN: A store turns rejection from an ending into an instruction; state
+is what keeps a pipeline from becoming a race condition. -
+中：倉庫讓「否決」從句點變成指示；而狀態，是產線不至於淪為競態條件的關鍵。
+- EN: Any agent that feels wrong in practice is usually wearing the
+wrong shape. -
+中：任何實際跑起來「感覺不對」的代理，通常都是穿錯了形態。</p>
+<hr />
+<h2 id="june-20262026-年-6-月">June 2026｜2026 年 6 月</h2>
+<h3 id="approve-the-decisions.-watch-the-work."><a
+href="https://aishapedcompany.com/p/approve-the-decisions-watch-the-work">Approve
+the Decisions. Watch the Work.</a></h3>
+<h3 id="批准決定觀察工作">批准決定，觀察工作</h3>
+<p><em>Jun 30, 2026｜2026 年 6 月 30 日</em></p>
+<p>Everyone has worked for the manager who needs a status update every
+hour. Nothing ships without him seeing it first. He’s not malicious. He
+just can’t let go of the work itself. And the whole team slows to the
+speed of his attention, because that’s the actual bottleneck now. Him.
+每個人都遇過那種每小時都要進度回報的主管。任何東西沒經他過目就不能出去。他並不壞，他只是放不下工作本身。於是整個團隊被拖慢到「他的注意力」的速度——因為真正的瓶頸現在就是他。</p>
+<p>That manager is how most people supervise an AI agent. They wire an
+approval into every step, sign off again and again, and then wonder why
+the loop they built to save a day still eats one. They rebuilt the
+bottleneck. They just moved it from doing the work to approving it.
+大多數人監督 AI
+代理的方式，就是那個主管。他們在每一步都接上審批、一次又一次簽核，然後納悶為什麼這個「本來要省下一天」的迴圈還是吃掉一天。他們把瓶頸重建了一遍，只是從「做工作」搬到了「批准工作」。</p>
+<p>The question I keep getting is when do you stop checking the agent.
+Wrong question. The real one is what you put your hand on while it runs.
+我一直被問到的問題是：什麼時候可以不用再檢查代理？這是錯的問題。真正的問題是：在它跑的時候，你的手該按在哪裡。</p>
+<p>There are two ways to get this wrong. Approve every step, and you’re
+the manager above, the bottleneck. Approve nothing, and one run does
+something you can’t take back. The fix isn’t the midpoint, gating every
+call the agent makes. Half of them it should just make on its own. You
+keep your hand on two: what you can’t undo, and the call that’s the
+actual point. Everything else, the work and the small reversible choices
+along the way, runs without you. You watch it. You don’t gate it.
+搞砸這件事有兩種方式。每一步都批准，你就成了上面那個主管——瓶頸。什麼都不批准，某次執行就會做出你收不回來的事。解法不是取中間值、把代理做的每個判斷都設關卡；其中一半它本來就該自己決定。你的手只按在兩件事上：你收不回來的，以及那個真正是重點的判斷。其餘的一切——工作本身，以及沿途那些可逆的小選擇——都不需要你。你觀察它，但不攔它。</p>
+<p><strong>The calls you hold, the work you
+watch｜你握住的判斷，你觀察的工作</strong></p>
+<p>Two of the agent’s calls are yours. The one that’s the actual point:
+picking what’s worth doing. And the one you can’t take back. Those you
+gate, every time. The rest, the reversible calls it can make and you
+could undo, are the agent’s. You let them go.
+代理的判斷裡有兩個是你的：那個真正是重點的——挑出什麼值得做；以及那個你收不回來的。這兩個每次都設關卡。其餘的，那些它做得了、你也還原得了的可逆判斷，是代理的。放手。</p>
+<p>Here’s one I run with AgentUse. It turns my queued quote posts into
+images and ships them to X, Facebook, and Instagram, and it stops in
+exactly one place: before anything publishes. The agent checks what’s
+ready, builds the post, finds a slot, all on its own. Then it holds,
+because pushing something to a public account is the step it can’t take
+back. That gate is mine, and it sits exactly where the irreversible
+thing happens. 這是我用 AgentUse
+跑的一個例子。它把我排隊中的金句貼文做成圖片，發到 X、Facebook 和
+Instagram，而它只在一個地方停下：任何東西發布之前。檢查什麼已就緒、組出貼文、找到時段，全都自己來。然後它停住，因為把東西推上一個公開帳號，是那個它收不回來的步驟。那道關卡是我的，而且它就坐落在不可逆的事情發生的位置上。</p>
+<p>A loop can have more than one of these, and they don’t all sit at the
+end. My newsletter stops twice: once in the middle, the moment it’s laid
+out the week’s candidate angles, for me to pick the one worth saying,
+and again at the end for me to approve the send. The first one is
+mid-run, the agent’s already done a chunk of work before it stops, and
+that’s fine. A mid-run gate isn’t the problem. The gate belongs wherever
+one of these calls lives, and a call can land anywhere in the run. One
+agent split by three approvals is clean if each one is a call that’s
+actually yours.
+一個迴圈可以有不只一道這種關卡，而且它們不見得都在結尾。我的電子報停兩次：一次在中間，在它把本週候選角度攤開的那一刻，讓我挑出真正值得說的那個；一次在最後，讓我批准發送。第一次是執行途中，代理在停下來之前已經做了一大塊工作——這完全沒問題。「途中停」本身不是問題。關卡該待在這兩種判斷所在之處，而判斷可能落在執行過程的任何位置。一個代理被三道審批切開也很乾淨，只要每一道都真的是屬於你的判斷。</p>
+<p>The test is never where the gate falls in time. It’s this: is this a
+call only I should make, the irreversible or the essential, or am I
+babysitting work the agent should just do?
+判準從來不是關卡落在時間軸的哪裡，而是這個：這是不是一個只有我該做的判斷——不可逆的、或本質性的——還是我在保姆式地盯著一件代理本來就該自己做的工作？</p>
+<p><strong>The execution isn’t｜執行不屬於你</strong></p>
+<p>The execution is everything between the decisions. The drafting, the
+formatting, the assembly, the calls to tools. None of it needs your
+judgment, and every approval you staple onto it is just you in the way.
+執行，就是決定與決定之間的一切：起草、排版、組裝、呼叫工具。這些都不需要你的判斷；你釘在上面的每一道審批，都只是你自己擋在路中間。</p>
+<p>This is the manager from the top of the piece. An employee who stops
+every twenty minutes to ask “is this okay so far?” isn’t being managed.
+He’s being blocked. And he never builds the judgment to run without you,
+because you never let a single stretch of work finish without your hand
+on it. Gate the execution and you cap the loop’s throughput at your
+availability, which was the one thing you were trying to escape. You
+also tell the agent you don’t trust it to execute, only to start and
+stop, which is another way of saying you don’t trust it at all.
+這就是文章開頭那個主管。一個每二十分鐘就停下來問「目前這樣可以嗎」的員工，不叫被管理，叫被卡住。而且他永遠養不出獨立運作的判斷力，因為你從沒讓任何一段工作在你不插手的情況下完成過。替執行設關卡，等於把整個迴圈的吞吐量上限鎖死在「你有沒有空」上——而那正是你原本想逃離的東西。你同時也在告訴代理：我不信任你執行，只信任你啟動和停止——換句話說，就是完全不信任你。</p>
+<p>So when you feel the urge to add a gate, ask what it’s sitting on.
+One of your two calls, the irreversible or the essential, keep it.
+Anything else, a step or a choice the agent can undo, and you’re
+rebuilding the bottleneck.
+所以當你有衝動想加一道關卡時，先問它坐在什麼東西上面。如果是你那兩種判斷之一——不可逆的、或本質性的——留著。若是別的，任何代理自己還原得了的步驟或選擇，那你就是在重建瓶頸。</p>
+<p><strong>Watch the work, don’t block
+it｜觀察工作，別擋住它</strong></p>
+<p>Keeping your hand off the execution does not mean going blind. This
+is the other ditch people drive into. They think the only two options
+are approve every step or ignore everything until the end.
+把手從執行上拿開，不等於閉上眼睛。這是人們會掉進去的另一條溝：他們以為只有兩個選項——每一步都批准，或者從頭到尾不看直到最後。</p>
+<p>There’s a third, and it’s the whole game: watch without stopping.
+Observability. I replay exactly what the agent did and why, step by
+step, after the run, without ever blocking the run. I’m reading its real
+reasoning, not its final summary.
+還有第三個，而它才是整場遊戲的關鍵：不阻擋地觀察。可觀測性。我在執行結束後，逐步重播代理究竟做了什麼、為什麼那樣做，全程從不阻擋執行。我讀的是它真實的推理過程，不是它的最終摘要。</p>
+<p>That’s what a good manager actually does. He doesn’t approve every
+paragraph his writer drafts. He reads the work, keeps a feel for how
+it’s going, and steps in at the decisions. Observability is that, for
+agents. It’s how you supervise the work without standing in it.
+一個好主管實際上就是這樣做的。他不會批准他的寫手起草的每一個段落；他讀那些作品、對進展保持感覺，然後在決定的節點上介入。可觀測性就是代理版的這件事——它讓你監督工作，而不站在工作中間。</p>
+<p>And it changes what the review even is.
+而它也改變了「審查」這件事本身的性質。</p>
+<p><strong>The review is a decision, on
+evidence｜審查是一個決定，而且要有證據</strong></p>
+<p>Approving the output is itself a decision, the last one, so it gets a
+gate. But the gate isn’t a thumbs-up on a final answer floating free of
+context. It’s the output plus the trace of how the agent got there. I
+approve the rendered newsletter, the real email as it will land, and I
+can see the run behind it. Evidence, not vibes.
+批准產出本身就是一個決定——最後一個——所以它有一道關卡。但這道關卡不是對一個脫離脈絡、憑空飄著的最終答案比讚。它是「產出」加上「代理如何走到這裡的軌跡」。我批准的是算好的電子報，是它落到收件匣裡的真實模樣，而且我看得到背後那次執行。憑證據，不憑感覺。</p>
+<p>Whether that gate ever comes off depends on one thing, and it isn’t
+how long the agent has behaved. It’s what a mistake costs and whether
+you can take it back.
+這道關卡有沒有一天會拿掉，只取決於一件事，而那件事不是代理已經乖了多久，而是：一個錯誤的代價是什麼，以及你收不收得回來。</p>
+<p>Reversible and cheap: once the replay has shown me enough clean runs,
+I drop the gate and let it ship on its own, and I keep watching the
+trace. Irreversible and expensive: I keep my hand on it for as long as
+the company exists. The newsletter send goes to the whole list and can’t
+be unsent, so I press send myself, forever, and it has nothing to do
+with the agent being unreliable. It’s the most reliable thing I run. The
+support agent drafts replies and never sends the refunds and
+cancellations, because a wrong one is a real person and real money I
+can’t claw back. Drafting is reversible. Sending is not. That line, not
+the agent’s track record, decides which decisions stay gated.
+可逆而廉價的：一旦重播讓我看夠了乾淨的執行，我就把關卡拿掉、讓它自己出貨，同時繼續盯著軌跡。不可逆而昂貴的：只要公司還在，我的手就一直按在上面。電子報一發就是整份名單，收不回來，所以那個發送鍵我自己按，永遠如此——而這跟代理可不可靠毫無關係，它其實是我跑過最可靠的東西。客服代理會起草回覆，但永遠不會自己送出退款和取消，因為一次弄錯，另一端是一個真實的人和一筆我要不回來的錢。起草是可逆的，送出不是。決定哪些判斷要繼續設關卡的，是這條界線，不是代理的過往紀錄。</p>
+<p><strong>The arc is just
+onboarding｜這條曲線，就是新人上手的過程</strong></p>
+<p>Put it together and it’s the shape of training anyone.
+把這些拼起來，就是訓練任何一個人的形狀。</p>
+<p>Week one, you brief the new hire, you read everything they produced,
+you approve before it goes out. A month in, you brief them, you skim,
+you only sign off on the things that can’t be undone. A year in, you
+brief them and the only thing that reaches you is the exception they
+flagged themselves, because they learned to raise a hand on the weird
+cases instead of guessing.
+第一週，你交代新人任務，讀他產出的每一樣東西，在發出去前逐件批准。一個月後，你交代任務，快速掃過，只在不可逆的事情上簽核。一年後，你交代任務，而唯一會到你面前的，是他自己標記出來的例外——因為他學會了在奇怪的案例上舉手，而不是自己亂猜。</p>
+<p>The agent is the same arc. What changes isn’t the agent. It’s you
+moving from reading every trace to trusting that the trace exists and
+watching the number. An agent that never escalates isn’t reliable, by
+the way. It’s just quiet about being wrong. The hand-raise is the thing
+you’re really training.
+代理走的是同一條曲線。改變的不是代理，而是你——從「讀每一份軌跡」轉變為「信任軌跡存在、盯著數字看」。順帶一提，一個從不上報的代理不叫可靠，它只是把自己的錯誤悶著不說。你真正在訓練的，是那個舉手的動作。</p>
+<p>And it runs backward too. The week the replay starts showing sloppy
+steps, or one bad output slips the last gate, I go back to reading every
+run and the gate moves back up. Trust is revocable because the evidence
+is revocable. Nothing about last month protects you when the model under
+it shifted or the inputs drifted and the instructions didn’t.
+而且這條曲線是雙向的。哪一週重播開始出現草率的步驟，或者一份爛產出溜過了最後一道關卡，我就回去讀每一次執行，關卡也往回升。信任是可以撤回的，因為證據是可以撤回的。當底層模型換了、或輸入漂移而指令沒跟上時，上個月的表現保護不了你分毫。</p>
+<p>So stop asking how much you trust the agent. Ask what you’re holding.
+The two calls that are yours, on the evidence of how it got there. And
+nothing else. Watch the work the whole time, and never once stand in it.
+所以別再問你有多信任這個代理了。問你手上握著什麼。那兩個屬於你的判斷，依據它如何走到這裡的證據來做。其餘一概不握。全程觀察工作，但一次都別站在裡面。</p>
+<p>The judgment was always the job. The work was never yours to hold.
+判斷一直都是你的工作。工作本身，從來就不是你該握著的東西。</p>
+<p><strong>📌 Take Away</strong> - EN: You hold exactly two calls: the
+irreversible one, and the one that’s the actual point. Everything else
+is the agent’s. -
+中：你只握住兩個判斷：不可逆的那個，以及真正是重點的那個。其餘一切都是代理的。
+- EN: Gating the execution rebuilds the bottleneck and caps throughput
+at your availability. -
+中：替執行過程設關卡，等於重建瓶頸，把吞吐量鎖死在「你有沒有空」上。 -
+EN: Observability is the third option between micromanaging and going
+blind — watch without stopping. -
+中：在「事事微管理」和「完全不看」之間有第三條路，那就是可觀測性——觀察，但不喊停。
+- EN: Approve on evidence: the output plus the trace of how the agent
+got there, not a context-free thumbs-up. -
+中：憑證據批准：產出，加上代理如何走到這一步的軌跡，而不是脫離脈絡地按個讚。
+- EN: What decides whether a gate comes off is the cost and
+reversibility of a mistake — never the agent’s track record. -
+中：決定關卡能否拆除的，是錯誤的代價與可逆性，永遠不是代理的過往表現。 -
+EN: An agent that never escalates isn’t reliable — it’s just quiet about
+being wrong. -
+中：一個從不上報的代理不叫可靠，它只是對自己的錯誤保持沉默。</p>
+<hr />
+<h3 id="you-dont-trust-the-agent.-you-trust-the-loop."><a
+href="https://aishapedcompany.com/p/you-dont-trust-the-agent-you-trust">You
+Don’t Trust the Agent. You Trust the Loop.</a></h3>
+<h3 id="你信任的不是代理是那個迴圈">你信任的不是代理，是那個迴圈</h3>
+<p><em>Jun 18, 2026｜2026 年 6 月 18 日</em></p>
+<p>A friend asked me this week how I get an agent reliable enough to
+trust what it produces. He builds too, so this was not idle curiosity.
+He had a few agents running well, but he wasn’t ready to let any of them
+produce work he hadn’t checked. Which is the right instinct.
+這禮拜有個朋友問我，要怎麼把一個代理做到可靠得足以信任它的產出。他自己也在做開發，所以這不是閒聊式的好奇。他手上有幾個跑得不錯的代理，但還沒準備好讓任何一個產出他沒檢查過的東西。這是正確的直覺。</p>
+<p>He was working from the assumption almost everyone starts with,
+including me. Reliability is something you verify up front. You read the
+output, you decide it is good, and then you trust it. Like checking a
+spec sheet before you buy the part.
+他抱著幾乎每個人一開始都會有的假設，包括我在內：可靠性是一件你「事先驗證」的事。你讀產出、判定它夠好，然後開始信任它——就像買零件前先看規格表。</p>
+<p>My answer was shorter than he expected. You don’t. Not on day one.
+我的回答比他預期的短：你不會信任它。第一天不會。</p>
+<p>Day one you should trust an agent about as much as you trust a new
+hire on their first morning. You would not hand a new hire the company
+card because the resume was strong. You watch them work. You correct
+them. A month later you trust their judgment, and the thing that changed
+was not the person. It was that you did the watching.
+第一天，你對一個代理的信任程度，應該跟你對一個第一天早上報到的新人差不多。你不會因為履歷漂亮就把公司信用卡交給新人。你看著他工作、糾正他；一個月後你信任他的判斷了，而改變的不是那個人，是你做了「觀看」這件事。</p>
+<p>Trust is not a property the agent has. It is the output of a loop you
+run around it.
+信任不是代理身上的一種屬性，而是你圍繞它跑的那個迴圈所產出的東西。</p>
+<p>The loop is simple: run it, watch what it actually did, correct it,
+then feed that correction back into what it reads before the next run.
+迴圈很簡單：跑它、看它實際做了什麼、糾正它，然後把糾正餵回它下次執行前會讀到的內容裡。</p>
+<p>There are three stages. You do the first once, to set the target. The
+second and third are the loop. Let me show you with the one agent I
+would actually let near my customers.
+一共三個階段。第一個你只做一次，用來設定標的；第二和第三個才是迴圈。我用一個「我真的敢放到客戶身邊」的代理來示範。</p>
+<p><strong>Stage 1: write the first
+version｜階段一：寫出第一版</strong></p>
+<p>The first version is where you state what you want before the agent
+runs once. The objective. What good output looks like. The judgment
+calls you want locked in so the agent does not invent its own. Then you
+give it tools.
+第一版，是你在代理跑第一次之前，把你要什麼講清楚：目標是什麼、好的產出長什麼樣、哪些判斷你要鎖死好讓代理不會自己發明一套。然後你給它工具。</p>
+<p>I write the agent itself as an AgentUse agent, a single file that
+holds its instructions, its schedule, and its tools. The authoring
+happens in Claude Code with the AgentUse skill, so I am describing the
+agent in plain language and the skill turns that into the actual config.
+我把代理本身寫成一個 AgentUse
+代理——一個檔案，裝著它的指令、排程和工具。撰寫過程在 Claude Code 裡搭配
+AgentUse skill 完成，所以我只是用日常語言描述這個代理，由 skill
+把它轉成實際的設定檔。</p>
+<p>My customer support agent is a clean example. The objective is small
+on purpose: work a bounded batch of the support inbox, never the whole
+thing. Good output is a drafted reply, classified correctly. The
+judgment is written down in plain rules. Only the support mailbox. Three
+conversations per run, no more. Cold outreach gets archived. Anything
+about billing, a refund, a cancellation, or a complaint gets a draft, an
+internal note, and a tag that says a human needs to look. For tools I
+hand it a skill, the <code>helpscout-cs-agent</code> skill, which
+already knows how to read a conversation, check the customer’s status,
+and apply an action. Most of what I give an agent now is skills.
+Sometimes I write a new one for the job.
+我的客服代理是個乾淨的例子。目標刻意設得很小：處理客服信箱裡「有界限的一批」，絕不是全部。好的產出，是一份分類正確的回覆草稿。判斷則被寫成樸素的規則：只碰客服信箱；每次執行最多三則對話，不得更多；陌生開發信直接封存；任何牽涉帳務、退款、取消或客訴的，一律產出草稿、內部備註，以及一個「需要人類看一下」的標籤。工具方面我給它一個
+skill——<code>helpscout-cs-agent</code>——它已經知道怎麼讀一則對話、查客戶狀態、執行一個動作。現在我給代理的東西，大部分都是
+skills；偶爾為了某項工作再寫一個新的。</p>
+<p>Version one is a hypothesis, not a product. I wrote down what good
+looked like and let it run. I did not expect it to be right.
+第一版是一個假設，不是一個成品。我寫下「好」長什麼樣，然後讓它跑。我從沒指望它會是對的。</p>
+<p><strong>Stage 2: the supervised
+run｜階段二：受監督的執行</strong></p>
+<p>Then you watch. Not the summary it gives you at the end. The actual
+run. 接著你觀看。不是它最後給你的那份摘要，是實際的執行過程。</p>
+<p>I use two things in AgentUse for this. The session viewer, which
+replays exactly what the agent did and why, step by step, so I am
+reading its real reasoning instead of its final answer. And the approval
+gate, which stops the agent on any mutation and waits for my sign-off
+before anything touches the real world. 我在 AgentUse
+裡用兩樣東西做這件事。一是 session
+viewer，逐步重播代理究竟做了什麼、為什麼那樣做，讓我讀到的是它真實的推理，而不是它的最終答案。二是審批關卡，在任何會造成變更的動作前把代理攔下來，等我簽核之後才讓東西碰到真實世界。</p>
+<p>There are two ways to gate, and the support agent uses the stricter
+one. The most important line in it is this: never send replies, draft
+only. The agent is not allowed to do the one thing it cannot take back.
+A wrong refund answer to a real customer is real damage. Money, trust,
+and a person on the other end who now thinks we do not know our own
+policy. So the agent drafts. I read. It sends nothing on its own. For
+agents where I do want the action to happen but only with my eyes on it,
+I use the AgentUse approval gate instead, so the mutation runs the
+moment I approve and not before.
+設關卡有兩種方式，客服代理用的是比較嚴的那種。它裡面最重要的一行是：永不發送回覆，只起草。這個代理根本不被允許去做那件收不回來的事。一個錯誤的退款回覆送到真實客戶手上，是真實的傷害——金錢、信任，以及另一端一個現在認為「這家公司連自己的政策都搞不清楚」的人。所以代理起草，我閱讀，它自己什麼都不送。至於那些「我確實希望動作發生、但要在我眼皮底下發生」的代理，我改用
+AgentUse 的審批關卡，讓變更在我批准的那一刻執行，而不是更早。</p>
+<p>This is the part people skip. They wire an agent straight to the
+irreversible action, then act surprised when it does something
+irreversible. Gate the mutation. Let the agent propose. Keep the commit
+for yourself, at least until you have watched it enough.
+這是大家會跳過的部分。他們把代理直接接到不可逆的動作上，然後在它做出不可逆的事情時裝作很驚訝。替變更設關卡。讓代理去「提案」。把「拍板」留給自己——至少在你看夠之前。</p>
+<p><strong>Stage 3: tune the instructions｜階段三：調校指令</strong></p>
+<p>Based on what you saw, you go back and sharpen. Back to Claude Code
+and the AgentUse skill, editing the agent’s instructions to close the
+gaps you just watched it fall into. 根據你看到的東西，回頭把它磨利。回到
+Claude Code 和 AgentUse
+skill，修改代理的指令，把你剛剛親眼看它掉進去的那些縫隙補起來。</p>
+<p>Here is the part I like. I built a second AgentUse agent whose only
+job is to learn. It runs on a schedule, every Sunday morning, reads the
+last seven days of replies that actually went out, the ones I edited
+before they sent, finds the patterns in how I changed them, and rewrites
+the knowledge base the drafting agent reads. My corrections do not live
+in my head. They become the instructions the next draft starts from.
+這是我喜歡的部分。我另外建了一個 AgentUse
+代理，它唯一的工作就是學習。它照排程執行，每週日早上讀過去七天真正寄出去的回覆——也就是我在發送前編輯過的那些——找出我修改它們的模式，然後重寫起草代理所讀的知識庫。我的糾正不再只存在我腦袋裡，它們變成了下一份草稿的起點。</p>
+<p>That is what closes the loop. The agent drafts. I fix. A second agent
+turns my fixes into next week’s starting point. Week over week the
+drafts need less editing, because the thing the agent reads before it
+drafts is shaped by every correction I have already made.
+這才是把迴圈閉合的關鍵。代理起草，我修正，第二個代理把我的修正變成下週的起點。一週又一週，草稿需要的編輯越來越少，因為代理下筆前所讀的東西，已經被我過去做過的每一次修正給塑造過了。</p>
+<p>The next move tightens it further. AgentUse is adding learning to the
+approval gate itself, so instead of a weekly agent harvesting my
+corrections, the comment I leave when I review a draft teaches the agent
+the reason on the spot. Not “change this word” but “you keep being too
+stiff on cancellations, warm it up.” The edit becomes a lesson the
+moment I make it, which folds stage 2 and stage 3 into one motion.
+下一步會把它收得更緊。AgentUse
+正在把「學習」直接加進審批關卡本身，這樣就不必靠一個每週執行的代理來收割我的修正——我審稿時留下的那句留言，會當場教會代理背後的理由。不是「改掉這個字」，而是「你在處理取消時老是太生硬，把語氣放暖一點」。修改在我做出的那一刻就變成了教訓，這等於把階段二和階段三折成同一個動作。</p>
+<p><strong>What the loop actually buys
+you｜這個迴圈到底替你換到什麼</strong></p>
+<p>That is the whole method. Three stages: you do the first once to set
+the target, and the last two are the loop you run as many times as it
+takes. Though here is what surprises people: a single pass through the
+loop often produces something good enough to use. You are not trapped
+waiting for a broken thing to work. You are sharpening one that mostly
+works already, and most of the sharpening happens in the first few
+passes.
+整套方法就是這樣。三個階段：第一個做一次以設定標的，後兩個是你要跑幾次就跑幾次的迴圈。不過有件事會讓人意外：只繞一圈，往往就能產出「好到可以用」的東西。你不是被困在原地等一個壞掉的東西修好，你是在打磨一個本來就大致能用的東西——而且大部分的打磨都發生在前幾圈。</p>
+<p>So when my friend asks how I trust the output, the honest answer is
+that I don’t trust the output. I trust the loop that produces it. The
+agent on day one is a guess. The agent after ten passes is something I
+watched get better, with my own corrections baked into what it reads
+before it writes a word.
+所以當我朋友問我怎麼信任那些產出時，誠實的答案是：我不信任產出，我信任產出它的那個迴圈。第一天的代理是一個猜測；跑過十圈之後的代理，是我親眼看著變好的東西，而且我自己的糾正早已被烘進它下筆前所讀的內容裡。</p>
+<p>Trust was never something I granted the agent. It is the residue of
+the loop.
+信任從來不是我「授予」代理的東西，它是那個迴圈留下的沉澱物。</p>
+<p>Build the loop first. The trust shows up on its own.
+先把迴圈建起來，信任會自己出現。</p>
+<p><strong>📌 Take Away</strong> - EN: Trust isn’t a property of the
+agent; it’s the output of the loop you run around it. -
+中：信任不是代理的屬性，而是你圍繞它所跑的那個迴圈的產物。 - EN: Watch
+the actual run, not the summary it hands you at the end. -
+中：要看實際的執行過程，不要看它最後遞給你的摘要。 - EN: Let the agent
+propose; keep the irreversible commit for yourself until you’ve watched
+enough. - 中：讓代理提案，把不可逆的拍板留給自己，直到你看夠為止。 - EN:
+Corrections must not live in your head — turn them into what the agent
+reads before its next run. -
+中：糾正不能只存在你腦袋裡——把它變成代理下次執行前會讀到的內容。 - EN:
+Version one is a hypothesis, not a product. -
+中：第一版是一個假設，不是一個成品。</p>
+<hr />
+<h2 id="may-20262026-年-5-月">May 2026｜2026 年 5 月</h2>
+<h3
+id="you-dont-need-fewer-agents.-you-need-agents-that-dont-need-you."><a
+href="https://aishapedcompany.com/p/you-dont-need-fewer-agents-you-need">You
+Don’t Need Fewer Agents. You Need Agents That Don’t Need You.</a></h3>
+<h3
+id="你需要的不是更少的代理而是不需要你的代理">你需要的不是更少的代理，而是不需要你的代理</h3>
+<p><em>May 29, 2026｜2026 年 5 月 29 日</em></p>
+<p>A few weeks ago I caught myself with fourteen terminal tabs open,
+each one an AI agent doing something. One was refactoring a script. One
+was drafting a newsletter. One was digging through support tickets. Two
+were stuck waiting on me and I had forgotten which two.
+幾週前，我發現自己開著十四個終端機分頁，每一個裡面都有一個 AI
+代理在做事。一個在重構腳本，一個在起草電子報，一個在翻客服工單。有兩個卡住了在等我，而我已經忘記是哪兩個。</p>
+<p>It felt like a whole team was working for me. I was also exhausted by
+noon. Both of those were true at the same time, and it took me a while
+to admit they had the same cause.
+感覺就像有一整支團隊在替我工作。同時，我中午就累垮了。這兩件事同時為真，而我花了好一陣子才承認它們的成因是同一個。</p>
+<p>I was the thing all fourteen agents were waiting for. And there is
+one of me. 那十四個代理都在等的東西，就是我。而我只有一個。</p>
+<p><strong>Addy Osmani gave this feeling a name｜Addy Osmani
+替這種感覺取了名字</strong></p>
+<p>Addy Osmani wrote a piece this week called The Orchestration Tax, and
+it put a clean edge on something I had been feeling without language for
+it. The argument is simple. Starting an agent is cheap. It is a
+sentence. Closing the loop on that agent is expensive, because someone
+has to read what came back, decide if it is right, and reconcile it with
+everything the other agents touched. That someone is you. There is one
+of you. Addy Osmani 這禮拜寫了一篇叫〈The Orchestration
+Tax（協調稅）〉的文章，把我一直感覺得到卻說不出口的東西，切出了一道乾淨的邊界。論點很簡單：啟動一個代理很便宜，一句話的事；把那個代理的迴圈閉合起來卻很貴，因為得有人去讀回傳的東西、判斷它對不對、再把它跟其他代理動過的所有東西整合起來。那個人就是你。而你只有一個。</p>
+<p>He borrows the best metaphor for it from programming. Python has a
+Global Interpreter Lock, the GIL. You can spawn a hundred threads, but
+only one runs real work at a time, because they all have to grab the
+same single lock. You are the GIL of your agents. They can all run. But
+the moment any of their work needs judgment, that work has to wait for
+the one lock. You hold it. You are the slow serial part of a fast
+parallel system. 他從程式設計借來了最貼切的比喻。Python
+有個全域直譯器鎖，也就是
+GIL。你可以生出一百條執行緒，但同一時間只有一條在做真正的工作，因為它們全都得搶同一把鎖。你就是你那些代理的
+GIL。它們全都能跑，但只要它們的工作需要判斷，那份工作就得排隊等那把唯一的鎖——而鎖在你手上。你是一個高速平行系統裡那個緩慢的序列部分。</p>
+<p>He got there on a Google I/O panel with Richard Seroter, Aja
+Hammerly, and Ciera Jaspan. Richard is the one who named it. “You can’t
+manage twenty agents successfully in your own brain.” He is right.
+Feeling busy and being productive came apart for me the same way they
+did for Addy. 他是在一場 Google I/O 座談上想通這件事的，同場的還有
+Richard Seroter、Aja Hammerly 和 Ciera Jaspan。是 Richard
+講出了那句話：「你沒辦法光靠自己的腦袋成功管理二十個代理。」他說得對。「感覺很忙」和「真的有產出」，在我身上就像在
+Addy 身上一樣，脫鉤了。</p>
+<p>Read his piece. It is the best diagnosis of this problem I have seen.
+去讀他那篇。那是我看過對這個問題最好的診斷。</p>
+<p>But I think most people are about to draw the wrong conclusion from
+it. 但我認為大多數人正要從中得出錯誤的結論。</p>
+<p><strong>The wrong lesson is “run fewer
+agents”｜錯誤的結論是「少跑幾個代理」</strong></p>
+<p>The obvious takeaway is to throttle yourself. Scale your fleet down
+to the number of agents you can personally review, which for most of us
+is two or three. Slow the producer to match the consumer. Backpressure.
+最直觀的結論是節流自己：把艦隊縮到你本人審查得完的數量，對大多數人來說是兩三個。把生產端放慢，去配合消費端。也就是反壓。</p>
+<p>That is good advice for the agents you have today. It is the wrong
+thing to optimize.
+對你今天手上的那些代理來說，這是好建議。但它不是該被最佳化的東西。</p>
+<p>Here is the part the GIL metaphor hides. The tax is not paid per
+agent. It is paid per open thread to your attention. An agent you
+babysit in a chat window holds a thread open the entire time it works.
+Every turn, it stops and looks at you. Twenty of those is unmanageable,
+and Addy is completely right that it is. But the count was never the
+real problem. The architecture of each agent was. 這是 GIL
+這個比喻藏起來的部分：這筆稅不是按「每個代理」課的，而是按「每一條掛在你注意力上的開啟中執行緒」課的。一個你在聊天視窗裡當保姆盯著的代理，在它工作的整段期間都掛著一條執行緒；每一輪它都停下來看著你。二十個這種東西當然管不了，Addy
+說得完全正確。但數量從來不是真正的問題，每個代理的架構才是。</p>
+<p>Most of what people call “running agents” is sitting in a terminal
+tab, watching an agent think, approving each step, nudging it when it
+drifts. That is not delegation. That is pair programming with something
+that types faster than you. Of course it does not scale. You did not
+remove yourself from the loop. You just moved your chair closer to it.
+大多數人口中的「跑代理」，其實是坐在一個終端機分頁前，看著代理思考、逐步批准、在它跑偏時推它一把。那不叫委派，那叫跟一個打字比你快的東西結對程式設計。它當然無法規模化——你並沒有把自己移出迴圈，你只是把椅子往迴圈搬得更近。</p>
+<p>The fix is not fewer of those. The fix is to stop building those.
+解法不是少做幾個那樣的東西，而是不要再做那樣的東西。</p>
+<p><strong>Two species of agent｜兩種截然不同的代理物種</strong></p>
+<p>There are two completely different things wearing the word “agent”
+right now, and we keep talking about them as if they were one.
+現在有兩種完全不同的東西共用「代理」這個詞，而我們一直把它們當成同一種東西在討論。</p>
+<p>The first is the assistant in a terminal tab. You prompt, it
+responds, you steer, it responds again. It is brilliant for hard, fuzzy
+work where the judgment is the whole point. It is also a continuous
+claim on your attention. You cannot walk away. The loop only closes when
+you close it, by hand, every time.
+第一種是終端機分頁裡的助理。你下提示、它回應、你導引、它再回應。對於困難而模糊、判斷本身就是重點的工作，它非常出色。但它同時是對你注意力的持續索求——你不能走開。那個迴圈只有在你親手閉合它時才會閉合，每一次都要。</p>
+<p>The second is the autonomous agent. It is not a conversation. It is a
+thing you wrote down once. It runs on its own, does its job, checks its
+own work, and only comes back to you at one gate you decided on in
+advance. When it is not at the gate, it holds zero threads to your
+attention. You can have ten of them running and feel nothing, because
+none of them is sitting in a terminal tab waiting for you to look.
+第二種是自主代理。它不是一段對話，而是一件你寫下來一次的東西。它自己跑、做它的工作、檢查自己的成果，只在一個你事先決定好的關卡回來找你。當它不在關卡上時，它掛在你注意力上的執行緒是零。你可以同時跑十個而毫無感覺，因為沒有任何一個坐在終端機分頁裡等你看它。</p>
+<p>Addy himself pointed at this. In his five fixes, four are about
+rationing your attention better. Sort the work. Batch the reviews.
+Protect your serial time. Give agents a long leash. All good. All
+discipline. The fifth one is different in kind: only spend the lock on
+judgment, and make the agent prove the boring eighty percent itself with
+a passing test or a screenshot. Addy
+自己也指向了這一點。他提的五個解法裡，有四個是關於如何更好地配給你的注意力：把工作排序、把審查批次化、保護你的序列時間、給代理長一點的韁繩。都很好，都是紀律。第五個則是不同性質的：只把那把鎖花在判斷上，並且要求代理用一個通過的測試或一張截圖，自己證明那無聊的八成。</p>
+<p>That fifth one is the only structural fix in the list. The other four
+help you survive the tax. The fifth removes the work from your lock
+entirely. So I would bet everything on the fifth and treat the rest as
+coping.
+第五個是清單裡唯一的結構性解法。其他四個幫你「撐過」這筆稅，第五個則直接把工作從你的鎖裡移走。所以我會把全部賭注押在第五個上，其餘的都只當成應付手段。</p>
+<p>The autonomous agent is what the fifth fix looks like when you build
+a whole thing around it.
+自主代理，就是當你圍繞著第五個解法蓋出一整套東西時，它長成的樣子。</p>
+<p><strong>What that actually looks like｜實際上長什麼樣</strong></p>
+<p>I write mine with AgentUse. An agent there is not a chat session. It
+is a markdown file. You describe the job in plain English, list the
+tools it can touch, tell it how to verify its own work, and set one
+approval gate for the single decision that needs you. Then you give it a
+schedule, and the thing runs itself. 我的代理是用 AgentUse
+寫的。在那裡，一個代理不是一段聊天工作階段，而是一個 markdown
+檔案。你用日常語言描述工作、列出它能碰的工具、告訴它如何驗證自己的成果，並為那個唯一需要你的決定設一道審批關卡。然後給它一份排程，這東西就自己跑了。</p>
+<p>One I use every week reads our newsletter performance, the recent
+subscriber replies, and the support themes from the last seven days. It
+drafts a brief. It checks the brief against the last few sends so it
+does not repeat an angle we already used. Then it stops at one gate and
+shows me the draft and the reasoning. I spend ninety seconds on the only
+part that needs me, which is the judgment call. The hour of reading,
+cross-referencing, and reconciling that used to be mine never enters my
+lock at all.
+我每週都會用的其中一個，會讀我們電子報的成效數據、近期訂閱者的回覆，以及過去七天客服的主題。它草擬一份簡報，並拿這份簡報跟前幾次發送比對，避免重複已經用過的切角。然後它停在一道關卡，把草稿和推理過程攤給我看。我只花九十秒在唯一需要我的部分，也就是那個判斷。過去屬於我的那一小時閱讀、交叉比對和整合，從頭到尾都沒有進入我的鎖。</p>
+<p>Compare that to the terminal-tab version of the same task. I would
+open a session, paste the data, watch it work, correct it twice, ask it
+to check itself, and close the loop manually. Same output. But one of
+them taxes me for an hour and one of them taxes me for ninety seconds,
+because one holds a thread open the whole time and the other holds none
+until the gate.
+拿它跟同一件事的「終端機分頁版」比較：我會開一個工作階段、貼上資料、看著它做、糾正兩次、要它自我檢查，然後手動閉合迴圈。產出一樣。但一個向我課一小時的稅，另一個只課九十秒——因為一個全程掛著一條執行緒，另一個在抵達關卡之前一條都沒有。</p>
+<p>Think of a space heater with no thermostat. You are the feedback
+loop. You keep getting up, feeling the room, twisting the dial, sitting
+back down, getting up again. A thermostat is the same heater with the
+loop closed inside it. You set the target once. It only interrupts you
+when something happens that it cannot handle on its own. Most people are
+running their AI like a space heater and calling themselves busy because
+they never stop walking to the dial.
+想像一台沒有恆溫器的電暖器。你就是那個回饋迴圈：你不斷站起來、感受室溫、轉一下旋鈕、坐下、再站起來。恆溫器就是同一台電暖器，只是迴圈被閉合在它內部。你設定一次目標，只有當發生它處理不了的狀況時才會打擾你。大多數人跑
+AI
+的方式就像那台沒有恆溫器的電暖器，然後因為自己一直在走去轉旋鈕，就宣稱自己很忙。</p>
+<p>AgentUse, or whatever you build this with, is how you put the
+thermostat in.
+AgentUse，或任何你用來蓋這東西的工具，就是你把恆溫器裝進去的方式。</p>
+<p><strong>Why this beats Amdahl instead of obeying it｜為什麼這是打敗
+Amdahl 定律，而不是順從它</strong></p>
+<p>Amdahl’s Law says your speedup is capped by the part of the work that
+stays serial. Addy is right that in agent work, the serial part is your
+judgment, and spawning more agents does not speed up your judgment. It
+just deepens the queue feeding into it. Amdahl
+定律說：你的加速幅度受限於那些必須序列執行的部分。Addy
+說得對，在代理工作裡，序列的部分就是你的判斷；生出更多代理並不會加速你的判斷，只會讓餵進去的佇列更深。</p>
+<p>But you do not beat Amdahl by adding cores. You beat it by shrinking
+the serial fraction. That is the whole game. 但你不是靠加核心來打敗
+Amdahl 的，你是靠縮小序列比例。整場遊戲就在這裡。</p>
+<p>A terminal-tab agent has a fat serial fraction, because reading raw
+output, deciding if it is right, and reconciling it are all yours. An
+autonomous agent that writes its own passing test and hands you a
+verified result has a thin one, because the verification moved out of
+your lock and into the machine. You are no longer reviewing whether the
+work is correct. You are reviewing whether the correct work is the right
+work. That is a smaller, sharper question, and it is the only one worth
+your attention anyway.
+終端機分頁裡的代理，序列比例很肥，因為讀原始輸出、判斷對不對、整合，全都是你的事。一個會自己寫出通過的測試、然後遞給你一個已驗證結果的自主代理，序列比例很瘦，因為驗證這件事已經從你的鎖裡搬進了機器。你不再是在審查「這份工作正不正確」，而是在審查「這份正確的工作，是不是對的工作」。那是一個更小、更銳利的問題，而且它本來就是唯一值得你注意力的問題。</p>
+<p>So the backpressure ceiling Addy describes is real, but it is not
+fixed. Raise your effective review rate by making most of the work
+arrive pre-verified, and the ceiling moves up. You can run more agents,
+not fewer, because each one now asks less of you. The constraint was
+never the count. It was how much of your lock each agent demanded. 所以
+Addy
+描述的那個反壓天花板確實存在，但它不是固定的。讓大部分工作抵達時已經預先驗證過，你的有效審查速率就提高，天花板也跟著往上移。你可以跑更多代理，而不是更少，因為每一個現在向你要的東西變少了。限制從來不是數量，而是每個代理索求了你多少鎖的時間。</p>
+<p><strong>One thing to do this week｜這禮拜做一件事</strong></p>
+<p>Find the one agent you babysit the most. The chat session you keep
+reopening for the same recurring task. The one that taxes you every
+single time because you are its loop.
+找出你最常當保姆盯著的那一個代理——那個你為了同一件重複性工作一再重開的聊天工作階段，那個每次都向你課稅的，因為你就是它的迴圈。</p>
+<p>Write it down as a file instead. Describe the job, give it the tools,
+tell it how to check its own work, and set one gate for the part that
+needs you. Run it once by hand to see if it holds. Then put it on a
+schedule and walk away.
+改成把它寫成一個檔案。描述工作、給它工具、告訴它如何檢查自己的成果，並替那個需要你的環節設一道關卡。手動跑一次看它撐不撐得住，然後給它一份排程，走開。</p>
+<p>You will not have one fewer agent. You will have one fewer thread
+pulling on the one resource you cannot clone.
+你不會因此少一個代理，你會少一條拉扯著「那個你複製不了的資源」的執行緒。</p>
+<p>That is the whole move. Spawning agents is not the skill. Anyone can
+open twenty tabs. The skill is building the ones that do not need you to
+be standing there, so the only thing you spend your attention on is the
+thing only you can do.
+整套動作就是這樣。生出代理不是本事，誰都能開二十個分頁。本事是做出那些「不需要你站在旁邊」的代理，好讓你的注意力只花在那件只有你做得到的事情上。</p>
+<p><strong>📌 Take Away</strong> - EN: You are the GIL of your agent
+fleet — the tax is paid per open thread on your attention, not per
+agent. - 中：你是你這支代理艦隊的
+GIL——這筆稅是按「掛在你注意力上的執行緒」課的，不是按代理數量課的。 -
+EN: Two species wear the word “agent”: the chat assistant that never
+lets you walk away, and the autonomous agent that holds zero threads
+until its gate. -
+中：「代理」這個詞底下有兩個物種：讓你走不開的聊天助理，以及在抵達關卡前不佔用你任何注意力的自主代理。
+- EN: Don’t run fewer agents — stop building the kind that needs you
+standing there. -
+中：別減少代理數量——停止再做那種「需要你站在旁邊」的代理。 - EN: Beat
+Amdahl by shrinking the serial fraction: make work arrive pre-verified
+so you review whether the correct work is the right work. -
+中：靠縮小序列比例來打敗
+Amdahl：讓工作抵達時已預先驗證，你要審的就變成「這份正確的工作是不是對的工作」。
+- EN: Be the thermostat, not the person who keeps walking over to the
+dial. - 中：當那個恆溫器，別當那個一直走過去轉旋鈕的人。</p>
+<hr />
+<h2 id="april-20262026-年-4-月">April 2026｜2026 年 4 月</h2>
+<h3 id="open-loop-companies-forget.-closed-loop-companies-compound."><a
+href="https://aishapedcompany.com/p/open-loop-companies-forget-closed">Open
+Loop Companies Forget. Closed Loop Companies Compound.</a></h3>
+<h3
+id="開迴圈的公司會遺忘閉迴圈的公司會複利">開迴圈的公司會遺忘，閉迴圈的公司會複利</h3>
+<p><em>Apr 28, 2026｜2026 年 4 月 28 日</em></p>
+<p>When I ran LifeHack with a team, I sat through a leadership review
+where someone asked, “what did we actually learn last quarter?” The room
+went quiet. Not because nobody had worked. Everyone had worked hard. The
+team had shipped, sold, hired, and put out fires. The silence was
+because nobody could reconstruct what had actually happened.
+當我還帶著團隊經營 LifeHack
+時，我坐在一場管理層檢討會上，有人問：「上一季我們到底學到了什麼？」全場安靜。不是因為沒人做事——每個人都很拚，團隊出了貨、賣了東西、招了人、滅了火。那份沉默，是因為沒有人能重建出「究竟發生過什麼」。</p>
+<p>That silence is not a culture problem. It is not a discipline
+problem. It is a system problem.
+那份沉默不是文化問題，也不是紀律問題，而是系統問題。</p>
+<p>The company was an open loop. It executed, but it did not learn from
+itself. 那家公司是一個開迴圈。它會執行，但不會從自己身上學習。</p>
+<p>That memory has stayed with me, because the same pattern shows up in
+every operator conversation I have today. Most companies are like this.
+Most lives are too. And I think the next five years will sort companies
+into two piles based on a single property: whether their loops actually
+close.
+這段記憶一直跟著我，因為同樣的模式出現在我今天與經營者的每一場對話裡。大多數公司是這樣，大多數人生也是。而我認為，接下來五年會依據單一性質把公司分成兩堆：它們的迴圈到底閉不閉合。</p>
+<p><strong>What an open loop is, and what a closed loop
+is｜什麼是開迴圈，什麼是閉迴圈</strong></p>
+<p>An open loop runs forward and never turns around. You decide. You do.
+You half-observe what happened. You start the next cycle with most of
+the lesson already gone.
+開迴圈只往前跑，從不回頭。你決定、你執行、你半吊子地觀察發生了什麼，然後帶著大部分早已流失的教訓，開始下一個循環。</p>
+<p>A closed loop turns around. You capture the input and the reasoning.
+You execute. You capture what shipped and what slipped. You measure the
+outcome against the intent. You feed the result back so the next cycle
+starts smarter than the last one.
+閉迴圈會回頭。你記錄下輸入和推理，你執行，你記錄下什麼交付了、什麼延誤了，你拿結果對照原本的意圖來量測，然後把結果餵回去，讓下一個循環比上一個更聰明地起跑。</p>
+<p>Open loops repeat. Closed loops compound.
+開迴圈只是重複，閉迴圈才會複利。</p>
+<p>If you only take one sentence from this post, take this one: if a
+process matters in your company, it should produce artifacts the company
+can learn from later. Without those artifacts, the process is open. It
+does not matter how earnest the retro is.
+如果這篇文章你只帶走一句話，帶走這句：如果一個流程在你的公司裡很重要，它就應該產出「公司日後能從中學習的文件產物」。沒有那些產物，這個流程就是開的——無論你的回顧會開得多麼真誠。</p>
+<p><strong>Why almost every company is an open loop by
+default｜為什麼幾乎每家公司預設都是開迴圈</strong></p>
+<p>A normal decision in a normal company goes like this. Someone makes a
+call, often in a DM or a hallway. Work gets assigned, sometimes
+verbally. People execute. Status gets reported manually, usually in a
+meeting that nobody records. Outcomes are partially observed by the
+people closest to them. Lessons get inconsistently captured, often
+nowhere. The next cycle starts with most of that context gone.
+一家正常公司裡的一個正常決策是這樣的：某人做了一個決定，通常是在私訊或走廊上。工作被指派下去，有時只是口頭。大家開始執行。進度靠人工回報，通常是在一場沒有人記錄的會議上。結果只被最靠近它的那些人片段地觀察到。教訓被零散地記下，往往根本沒被記下。下一個循環開始時，大部分脈絡都不見了。</p>
+<p>Information loss happens at every step. The reasoning behind a
+decision dies in Slack. The tradeoffs you considered die in a 1:1. The
+customer context that shaped the spec dies in a sales call recording
+nobody re-watched. The reason a sprint slipped dies in three engineers’
+heads. 每一步都在流失資訊。決策背後的推理死在 Slack
+裡，你權衡過的取捨死在一對一會議裡，形塑了規格的客戶脈絡死在一段沒人重看的銷售通話錄音裡，一次衝刺延誤的原因死在三個工程師的腦袋裡。</p>
+<p>By the time the next planning meeting arrives, the company is
+operating on memory, not data. And human memory is a famously bad
+database.
+等到下一次規劃會議到來，公司靠的是記憶，不是資料。而人類記憶是一個出了名的爛資料庫。</p>
+<p>This is why so many companies feel busy and slow at the same time.
+They are not slow because people are lazy. They are slow because every
+cycle pays a tax to reconstruct context that should have been captured
+the first time.
+這就是為什麼這麼多公司同時感覺又忙又慢。它們慢不是因為人懶，而是因為每個循環都要繳一筆稅，去重建那些第一次就該被記錄下來的脈絡。</p>
+<p>A lot of middle management exists to pay that tax on behalf of the
+rest of the company. People become the integration layer because the
+system is not one. That is an expensive way to run an org chart.
+很多中階管理職的存在，就是代替公司其他人繳這筆稅。人變成了整合層，因為系統本身不是。用這種方式維持一張組織圖，代價很高。</p>
+<p><strong>Five places companies leak the
+loop｜公司最常在五個地方讓迴圈漏掉</strong></p>
+<p>If you are an operator and you want to find your own open loops fast,
+look here first.
+如果你是經營者，想快速找出自己的開迴圈，先看這五個地方。</p>
+<p>Decisions in DMs. The reasoning behind most important calls in your
+company is in private channels nobody can search. When the decision
+turns out to be wrong six months later, the reasoning is gone. You
+cannot learn from a decision you cannot reread.
+私訊裡的決策。你公司裡大部分重要決定背後的推理，都躺在沒人搜尋得到的私人頻道裡。六個月後這個決定被證明是錯的，推理已經不見了。你無法從一個你重讀不到的決策裡學到東西。</p>
+<p>Meetings without artifacts. Sales calls, design reviews, hiring
+debriefs, customer interviews. These happen, then evaporate. The team
+that did the meeting walks away with a vibe. Everyone else gets nothing.
+沒有產出物的會議。銷售通話、設計評審、面試檢討、客戶訪談。這些事發生了，然後就蒸發了。開會的那組人帶走一種「感覺」，其他所有人什麼都沒拿到。</p>
+<p>Roadmaps disconnected from outcomes. What shipped lives in one
+system. What moved the metric lives in another. Often nobody connects
+the two on purpose. So the company keeps shipping things and keeps being
+surprised by which ones mattered.
+與結果脫節的路線圖。「出了什麼貨」住在一個系統，「什麼推動了指標」住在另一個系統，而通常沒有人刻意去把兩者接起來。於是公司持續出貨，也持續對「哪些真的有用」感到意外。</p>
+<p>Customer signal stuck at the edges. Support hears the same complaint
+forty times. Sales hears the same objection in every demo. Product
+almost never finds out in a form they can act on.
+卡在邊緣的客戶訊號。客服聽同一個抱怨聽了四十次，業務在每一場示範裡聽到同一個反對意見，而產品幾乎從來沒有以「可以據以行動的形式」得知這些。</p>
+<p>Retros that do not change next sprint. Lessons get “captured” in a
+doc nobody opens before the next planning meeting. The lesson exists. It
+just does not enter the next cycle.
+不會改變下一次衝刺的回顧會。教訓被「記錄」在一份沒人會在下次規劃會議前打開的文件裡。教訓確實存在，它只是沒有進入下一個循環。</p>
+<p><strong>What it takes to actually close
+one｜真正閉合一個迴圈需要什麼</strong></p>
+<p>A closed loop produces four artifacts every cycle. Not three. Not
+“the important ones.” All four.
+一個閉迴圈每個循環會產出四份文件產物。不是三份，也不是「重要的那幾份」。四份，全部。</p>
+<p>The input artifact: what you decided, with what context and what
+constraints. Written down somewhere durable.
+輸入產物：你決定了什麼，基於什麼脈絡、受什麼限制。寫在一個能長久保存的地方。</p>
+<p>The execution artifact: what shipped, what slipped, what changed
+mid-flight, who owned what.
+執行產物：什麼交付了、什麼延誤了、途中什麼改變了、誰負責什麼。</p>
+<p>The outcome artifact: what actually happened, measured against the
+original intent. Not what you hoped happened.
+結果產物：實際發生了什麼，對照原本的意圖來量測。不是你希望發生了什麼。</p>
+<p>The improvement artifact: what specifically changes in the next cycle
+because of this one. Not “we should be better at planning.” Something
+concrete you can point at.
+改進產物：因為這個循環，下一個循環具體會改變什麼。不是「我們規劃能力該加強」，而是某個你指得出來的具體東西。</p>
+<p>If any of the four is missing, the loop is still open.
+四份裡少了任何一份，迴圈就仍然是開的。</p>
+<p><strong>Why this is suddenly worth
+doing｜為什麼這件事突然變得值得做</strong></p>
+<p>Closed loops were always the right design. For most of my career they
+were just too expensive to run.
+閉迴圈一直都是正確的設計。在我職涯的大部分時間裡，它只是貴到跑不起來。</p>
+<p>Capturing meetings, summarizing calls, reconciling specs against
+shipped code, tying customer signals to roadmap items, reading last
+quarter’s retros before this quarter’s planning. This was a full-time
+job per loop. Most companies hired a chief of staff to do a fraction of
+it.
+記錄會議、摘要通話、把規格跟已交付的程式碼對帳、把客戶訊號連到路線圖項目、在這一季規劃前先讀上一季的回顧——每一個迴圈都是一份全職工作。大多數公司請一個幕僚長，也只能做到其中一小部分。</p>
+<p>LLMs collapse the cost of synthesis to near zero. Recordings become
+structured summaries. Tickets and PRs become a queryable history.
+Customer tickets become trend reports. Old sprints become advice on this
+sprint’s plan. LLM
+把「綜整」的成本壓縮到趨近於零。錄音變成結構化摘要，工單和 PR
+變成可查詢的歷史，客戶工單變成趨勢報告，舊的衝刺變成對本次衝刺計畫的建議。</p>
+<p>This is why I think the AI bill is the wrong thing to be optimizing
+right now. The AI bill is the price of finally running closed loops at
+company scale. Cutting it to look efficient is like cutting electricity
+to save on lighting. You are not saving money. You are turning the
+lights off. 所以我認為，現在把 AI
+帳單當成最佳化目標是搞錯了方向。那筆帳單，是你終於能在公司規模上跑閉迴圈所付的價錢。為了看起來有效率而砍它，就像為了省電費而斷電——你不是在省錢，你是在關燈。</p>
+<p>Context is the new management layer. The more an agent knows about
+your company, the more loops it can close that no human had time to
+close before.
+脈絡就是新的管理層。一個代理對你公司知道得越多，它就能閉合越多過去沒有任何人有時間閉合的迴圈。</p>
+<p><strong>One closed loop, in detail｜一個閉迴圈的細節</strong></p>
+<p>Take sprint planning. Probably the most expensive open loop in any
+product company.
+以衝刺規劃為例。這大概是任何產品公司裡最昂貴的一個開迴圈。</p>
+<p>The open loop version is the one you already know. PM guesses scope.
+Engineering commits. Half ships, sometimes less. A retro maybe happens.
+Lessons go in a doc. Next sprint starts from a blank page and a hopeful
+estimate. 開迴圈版本你已經很熟了：PM
+猜範圍，工程承諾，一半交付出去，有時更少。回顧會可能有開。教訓進了一份文件。下一次衝刺從一張白紙和一個充滿希望的估算重新開始。</p>
+<p>The closed loop version looks like this. An agent has standing access
+to Linear, GitHub, the engineering Slack channel, customer support
+tickets, sales call transcripts, last sprint’s plan, and the actual ship
+log. Before planning, it produces a brief. What was planned versus
+shipped. Which work slipped, and why. Which shipped items mapped to a
+real customer pain in support tickets. Who is overloaded. Where
+ownership is unclear. Which decisions are blocking work nobody is
+escalating. 閉迴圈版本長這樣：一個代理常駐存取
+Linear、GitHub、工程部門的 Slack
+頻道、客服工單、銷售通話逐字稿、上次衝刺的計畫，以及實際的交付紀錄。在規劃之前，它產出一份簡報：計畫了什麼
+vs. 交付了什麼；哪些工作延誤了，為什麼；哪些交付項目對應到客服工單裡真實的客戶痛點；誰的負擔過重；哪裡的權責不清；哪些決定正在阻塞工作，卻沒有任何人上報。</p>
+<p>The planning meeting starts from that brief, not a blank doc. The PM
+is no longer guessing. The engineers are no longer reconstructing. The
+conversation moves immediately to judgment, not status.
+規劃會議從那份簡報開始，而不是一份空白文件。PM
+不再是在猜，工程師不再是在重建脈絡。對話立刻進入判斷，而不是進度回報。</p>
+<p>After the sprint, the agent measures the brief’s predictions against
+reality. The estimates that were wrong get tagged. The work types that
+consistently slip get flagged. The next brief is sharper. Two quarters
+in, planning takes half the time and the plans are closer to what
+actually ships.
+衝刺結束後，代理拿簡報裡的預測跟現實比對。估錯的部分被標記起來，總是延誤的工作類型被標示出來。下一份簡報就更銳利。兩季之後，規劃只花一半時間，而計畫也更接近實際交付出來的東西。</p>
+<p><strong>What actually compounds｜真正會複利的是什麼</strong></p>
+<p>Open loop companies forget. Closed loop companies compound.
+開迴圈的公司會遺忘，閉迴圈的公司會複利。</p>
+<p>Open loop lives forget. Closed loop lives compound.
+開迴圈的人生會遺忘，閉迴圈的人生會複利。</p>
+<p>The companies that pull away over the next five years will not be the
+ones that “use AI” the most. Everyone uses AI now. The ones that pull
+away will be the ones whose loops actually close, where every cycle is
+sharper than the last because the artifacts from the last one are still
+in the room. 接下來五年拉開差距的公司，不會是「最會用
+AI」的那些——現在人人都在用
+AI。拉開差距的，會是那些迴圈真正閉合的公司：每一個循環都比上一個更銳利，因為上一個循環留下的文件產物還在這個房間裡。</p>
+<p>This week, name one open loop in your company. Just one. Close it
+before you close any others. See what changes.
+這禮拜，說出你公司裡的一個開迴圈。就一個。在閉合其他任何迴圈之前，先把它閉合。看看會有什麼改變。</p>
+<p>Then look at your own life and pick one there too.
+然後看看你自己的人生，也在那裡挑一個。</p>
+<p><strong>📌 Take Away</strong> - EN: Open loops repeat; closed loops
+compound. The difference is whether the process leaves artifacts behind.
+-
+中：開迴圈只是重複，閉迴圈才會複利。差別在於這個流程有沒有留下文件產物。
+- EN: A closed loop produces all four artifacts every cycle: input,
+execution, outcome, improvement. Miss one and it’s still open. -
+中：閉迴圈每個循環要產出全部四份產物：輸入、執行、結果、改進。少一份，迴圈就還是開的。
+- EN: Companies feel busy and slow because every cycle pays a tax to
+reconstruct context that should have been captured the first time. -
+中：公司之所以又忙又慢，是因為每個循環都在繳一筆稅，去重建第一次就該被記下的脈絡。
+- EN: The AI bill is the price of finally running closed loops at
+company scale — cutting it to look efficient is turning the lights off.
+- 中：AI
+帳單是你終於能在公司規模上跑閉迴圈的價錢——為了顯得有效率而砍它，等於在關燈。
+- EN: Context is the new management layer. -
+中：脈絡，就是新的管理層。</p>
+<hr />
+<h3 id="your-ai-integration-is-stuck-in-1992"><a
+href="https://aishapedcompany.com/p/your-ai-integration-is-stuck-in-1992">Your
+AI Integration Is Stuck in 1992</a></h3>
+<h3 id="你的-ai-整合還卡在-1992-年">你的 AI 整合，還卡在 1992 年</h3>
+<p><em>Apr 20, 2026｜2026 年 4 月 20 日</em></p>
+<p>I’ve been watching a Steve Jobs talk from 1992 and it explains most
+of what’s wrong with how people are using AI in 2026. 我最近在看一段
+1992 年 Steve Jobs 的演講，它解釋了 2026 年人們使用 AI
+的方式裡，大部分的毛病。</p>
+<p>He gave it at MIT Sloan, after he’d left Apple and was running NeXT.
+He was citing Paul Strassmann, a guy who’d been CIO at Xerox, the
+Pentagon, and NASA, and had spent two decades studying where corporate
+IT actually paid off. 那場演講在 MIT
+史隆管理學院，當時他已離開蘋果、正在經營 NeXT。他引用的是 Paul
+Strassmann——曾任全錄、五角大廈和 NASA 的資訊長，花了二十年研究企業 IT
+究竟在哪裡真正產生回報。</p>
+<p><strong>The Two Columns｜兩個欄位</strong></p>
+<p>Strassmann had found something simple. Every company he looked at
+spent about 2% of revenue on IT. The number was roughly the same whether
+the company was winning or losing. What moved was what the tech was
+doing. Strassmann 發現了一件很單純的事：他研究的每一家公司，都把大約 2%
+的營收花在 IT
+上。無論這家公司是贏家還是輸家，這個數字都差不多。真正有差別的，是這些科技在做什麼。</p>
+<p>Some companies pointed the 2% at individual work. Tools that made one
+person’s day faster. Word processors, spreadsheets, email. The memo
+still got written. It just got written in an hour instead of three.
+Strassmann called this management productivity, but the simpler way to
+say it is that the tech was speeding up the people. 有些公司把那 2%
+指向個人工作：讓一個人的一天更快的工具——文書處理、試算表、電子郵件。備忘錄還是得寫，只是從三小時縮短成一小時。Strassmann
+稱之為「管理生產力」，但更簡單的講法是：這些科技在加速「人」。</p>
+<p>Other companies pointed the 2% at the business itself. Tech that
+shortened the cycle that made the money. Catch the stockout before it
+stocks out. Push the invoice the day the work finishes. Reprice the
+product the hour demand shifts. This is operational productivity, or
+just: the tech was speeding up the business. 另一些公司把那 2%
+指向生意本身：縮短那個「賺錢的循環」的科技。在缺貨發生前就攔截缺貨；工作完成當天就把發票推出去；需求變動的那一小時就重新定價。這叫「營運生產力」，或者更直白地說：這些科技在加速「生意」。</p>
+<p>Same budget. Same era. The winners pointed the tech at the business.
+The losers pointed it at the people, got faster workers, and wondered
+why the P&amp;L didn’t move.
+同樣的預算，同樣的年代。贏家把科技指向生意，輸家把它指向人，換來一批更快的員工，然後納悶損益表為什麼沒動。</p>
+<p><strong>Swap “PC” For “AI”｜把「個人電腦」換成「AI」</strong></p>
+<p>Now do the substitution. The whole talk plays.
+現在做這個替換，整場演講照樣成立。</p>
+<p>A lot of the 2026 conversation is sloppy about this because it
+mistakes form factor for direction. The popular take is that copilots
+are old, agents are new, ship the agents. As if the shape of the thing
+decides where it’s pointed. It doesn’t. Agents can be pointed at the
+person or at the business. Most of them are pointed at the person. 2026
+年的討論在這件事上很草率，因為它把「形式」誤認成「方向」。流行的說法是：copilot
+過時了、代理才是新的，快出代理吧——彷彿東西的形狀決定了它指向哪裡。並沒有。代理可以指向人，也可以指向生意，而大部分都指向了人。</p>
+<p>An agent that drafts your board update is pointed at you. An agent
+that triages your inbox is pointed at you. An agent that summarizes
+every call and files the notes is pointed at you. No matter how
+autonomous it is, if the thing it’s doing is making one person faster at
+their own work, it’s speeding up a person, not the business.
+一個替你草擬董事會報告的代理，指向的是你。一個替你分類收件匣的代理，指向的是你。一個摘要每通電話並歸檔筆記的代理，指向的還是你。不管它有多自主，只要它做的事是讓一個人在自己的工作上變快，它加速的就是一個人，不是生意。</p>
+<p><strong>Faster People Is Not A Faster
+Business｜人變快，不等於生意變快</strong></p>
+<p>You might push back here. If the people inside my business get
+faster, isn’t the business faster too? No, and it’s worth knowing why.
+你可能會反駁：如果我生意裡的人都變快了，生意不就跟著變快了嗎？不會，而且值得搞清楚為什麼。</p>
+<p>A business cycle is mostly waiting, not working. The lead sits in an
+inbox for four hours before anyone sees it. The demo is three days out.
+The proposal waits two days for approval. The onboarding call is booked
+for next Tuesday. Most of the clock on any revenue cycle is idle time
+between handoffs, not working time on a task.
+一個商業循環大部分是在「等」，不是在「做」。那筆潛在客戶在收件匣裡躺了四小時才有人看到；示範排在三天後；提案等兩天才簽核；上手通話約在下週二。任何營收循環的時鐘，大部分走在交接之間的閒置時間上，而不是走在任務上的工作時間。</p>
+<p>AI pointed at a person shortens working time. The rep answers in
+thirty seconds instead of five minutes. AI pointed at the business
+removes waiting time between handoffs. The lead gets qualified and
+replied to in thirty seconds instead of four hours overnight.
+Compressing waiting is how cycles actually get shorter. Speeding up a
+person at a non-bottleneck step is a local optimization. It feels like
+progress on the Monday standup and doesn’t show up in the quarter.
+指向人的 AI
+縮短的是工作時間：業務代表從五分鐘縮短到三十秒回覆。指向生意的 AI
+消除的是交接之間的等待時間：那筆潛在客戶從隔夜四小時，變成三十秒內完成資格判定並回覆。壓縮等待，才是循環真正縮短的方式。在非瓶頸環節上加速一個人，是局部最佳化——它在週一的站立會議上感覺像進展，卻不會出現在季報上。</p>
+<p><strong>What About Personal
+Productivity?｜那個人生產力呢？</strong></p>
+<p>Fair question. If I’m a solo operator, am I not the whole business?
+If I get faster, doesn’t the business get faster?
+合理的問題。如果我是一人公司，我不就是整個生意嗎？我變快了，生意不就變快了？</p>
+<p>Yes, if you’re truly solo. A one-person business has no handoffs. The
+person is the cycle. An agent that makes you reply faster is also an
+agent that shortens lead-to-response time. The two columns collapse into
+one because the person is the operation.
+是的，如果你真的是一個人。一人公司沒有交接，這個人就是整個循環。一個讓你回覆更快的代理，同時也是一個縮短「潛客到回應」時間的代理。兩個欄位塌縮成一個，因為這個人就是整套營運。</p>
+<p>But the moment anyone else is in the loop, they separate again. A VA,
+a contractor, a part-time editor, a freelancer. Once there are handoffs,
+the wait time between them is where the clock lives. Speeding up your
+own work while the handoffs stay slow is the same old trap at small
+scale.
+但只要迴圈裡多了任何一個人，兩者就又分開了。一個虛擬助理、一個外包、一個兼職編輯、一個自由工作者。一旦有了交接，時鐘就走在交接之間的等待時間裡。在交接依然緩慢的情況下加速自己的工作，只是同一個老陷阱的小尺寸版本。</p>
+<p>There’s also a simpler case. You just want your work to feel better.
+You want your inbox less painful. You want your deck to write itself.
+That’s fine. Just don’t pretend you’re transforming the business when
+you’re adopting a personal tool. Both can be true. They’re just
+different things. Buy the personal tool, use it happily, and point a
+different agent at the loop.
+還有一種更單純的情況：你只是希望工作起來舒服一點。你希望收件匣不那麼痛苦，希望簡報自己會寫。這完全沒問題。只是別在採用一個個人工具時，假裝自己正在轉型整個生意。兩件事可以同時成立，它們只是不同的東西。買那個個人工具、開心地用它，然後另外派一個代理去指向那個循環。</p>
+<p>The mistake isn’t pointing AI at yourself. The mistake is pointing
+all of your AI at yourself and calling it strategy. 錯的不是把 AI
+指向自己。錯的是把你「所有的」AI 都指向自己，然後管它叫策略。</p>
+<p><strong>Size Is Not The Tell｜規模不是判準</strong></p>
+<p>Size isn’t the way to sort this either. A short agent that watches
+the support inbox and pings the success team the moment a high-value
+account says something churn-like is pointed at the business. A small
+script that catches the pricing error before the quote leaves the office
+is pointed at the business. One well-placed thing at one critical step
+can shorten the revenue cycle by a day.
+規模也不是分辨的方式。一個短短的代理，盯著客服信箱，在高價值客戶說出任何像是要流失的話時立刻通知客戶成功團隊——它指向的是生意。一個小腳本，在報價單離開公司前攔下定價錯誤——它指向的也是生意。在一個關鍵環節上擺對一件東西，就能把營收循環縮短一天。</p>
+<p>The question isn’t how big the agent is. It’s what gets faster when
+it runs, the person or the business.
+問題不是這個代理有多大，而是它跑起來時，變快的是人，還是生意。</p>
+<p><strong>The Monday Audit｜週一稽核</strong></p>
+<p>If you want to run this on your own stack, don’t count your agents.
+Map them.
+如果你想在自己的技術棧上跑一次這個檢查，別去數你的代理，去畫出它們的位置。</p>
+<p>Sketch how revenue actually moves in your business. Lead in,
+qualified, demo, close, onboarded, renewed. Or idea in, made, shipped,
+bought, supported. Whatever your cycle is. Mark the handoffs, not just
+the tasks. Most of the clock lives between the boxes, not inside them.
+畫出營收在你生意裡實際流動的路徑：潛客進來、判定資格、示範、成交、上手、續約。或者：點子進來、做出來、出貨、被購買、被支援。不管你的循環長什麼樣。標出「交接」，不要只標任務。時鐘大部分走在方塊「之間」，不是方塊「裡面」。</p>
+<p>Now look at every AI integration you’ve shipped. For each one, ask
+one question. When this runs, does the business move faster, or does one
+person get faster at their own work? 現在檢視你已上線的每一個 AI
+整合。對每一個問一個問題：當它執行時，是生意跑得更快，還是某一個人在自己的工作上變快了？</p>
+<p>Then ask it of the whole stack. If you unplugged every AI integration
+tomorrow, would the cycle stretch out, or would a few people just type
+more? 接著對整個技術棧問一次：如果明天你把所有 AI
+整合都拔掉，是循環會被拉長，還是只是幾個人得多打點字？</p>
+<p>Most operators I’ve run this with realize their agents are almost
+entirely pointed at people. A few realize it’s a hundred percent. The
+number is rarely below sixty.
+跟我一起跑過這個檢查的經營者，大多數都發現自己的代理幾乎全部指向人。少數人發現是百分之百。這個數字很少低於六成。</p>
+<p>The reason this keeps happening is that it’s an attention problem,
+not a technology problem. Pointing an agent at yourself feels like
+action. You ship it, you see it working, the demo lands. Pointing an
+agent at the business feels like work. You have to sit with how the
+business actually runs, figure out where the wait time lives, and wire
+something into it you trust enough to let run.
+這件事一再發生，是因為它是注意力問題，不是技術問題。把代理指向自己感覺像在行動：你上線它、你看見它在動、示範很成功。把代理指向生意則感覺像在做苦工：你得坐下來面對生意實際如何運轉、搞清楚等待時間住在哪裡，然後把某個你信任到願意放它自己跑的東西接進去。</p>
+<p><strong>The Trap Is Older Than AI｜這個陷阱比 AI 老得多</strong></p>
+<p>The split isn’t an AI thing. Strassmann drew it studying mainframes
+in the seventies. Jobs translated it to PCs in 1992. We’re living it in
+AI in 2026. Three eras. Three technologies. Same split. Each time new
+tech shows up, a loud generation of tools points at the person and a
+quieter generation points at the business. Person tools get the press.
+Business tools get the returns. 這個分野不是 AI 專屬的。Strassmann
+在七〇年代研究大型主機時就畫出了它，Jobs 在 1992
+年把它翻譯成個人電腦版，我們則在 2026 年用 AI
+重演一遍。三個年代、三種科技、同一個分野。每次新科技出現，都會有喧鬧的一代工具指向人，以及安靜的一代工具指向生意。指向人的工具拿到版面，指向生意的工具拿到回報。</p>
+<p>The question in 2026 isn’t whether you’re shipping agents. Everyone
+is. The question is whether your business moves any faster because of
+it. 2026
+年的問題不是你有沒有在出代理——每個人都在出。問題是：你的生意有因此跑得更快嗎？</p>
+<p>If you run the audit this week and the business isn’t any faster,
+that’s fine. Most of us started there. It just means the transformation
+you think you’re doing hasn’t started yet. The tech is new. The trap is
+1992.
+如果你這禮拜跑完稽核，發現生意並沒有變快，沒關係，我們大多數人都是從那裡開始的。那只代表你以為自己在做的轉型，其實還沒開始。科技是新的，陷阱是
+1992 年的。</p>
+<p><strong>📌 Take Away</strong> - EN: The form factor (copilot vs
+agent) tells you nothing about direction — what matters is whether it’s
+pointed at a person or at the business. - 中：形式（copilot
+還是代理）完全說明不了方向——重點是它指向一個人，還是指向生意。 - EN: A
+business cycle is mostly waiting, not working; compressing wait time
+between handoffs is how cycles actually shorten. -
+中：商業循環大部分是在等，不是在做；壓縮交接之間的等待時間，才是循環真正縮短的方式。
+- EN: Speeding up a person at a non-bottleneck step feels like progress
+at standup and never shows up in the quarter. -
+中：在非瓶頸環節加速一個人，在站立會議上感覺像進展，卻永遠不會出現在季報上。
+- EN: The mistake isn’t pointing AI at yourself — it’s pointing all of
+it at yourself and calling it strategy. - 中：錯的不是把 AI
+指向自己，而是把所有 AI 都指向自己，然後管它叫策略。 - EN: Map the
+handoffs, then ask of every integration: when this runs, does the
+business move faster, or just one person? -
+中：先畫出交接點，再對每個整合問：它跑起來時，是生意變快，還是只有一個人變快？</p>
+<hr />
+<h2 id="march-20262026-年-3-月">March 2026｜2026 年 3 月</h2>
+<h3 id="ai-made-you-more-productive.-the-question-is-for-whom"><a
+href="https://aishapedcompany.com/p/ai-made-you-more-productive-the-question">AI
+Made You More Productive. The Question Is: For Whom?</a></h3>
+<h3 id="ai-讓你更有生產力了問題是為了誰">AI
+讓你更有生產力了。問題是：為了誰？</h3>
+<p><em>Mar 13, 2026｜2026 年 3 月 13 日</em></p>
+<p>A few weeks ago I wrote about Parkinson’s Law and AI - how we fill
+saved time with more work unless we actively protect it.
+幾週前我寫過帕金森定律與
+AI——除非我們主動保護，否則省下來的時間都會被更多工作填滿。</p>
+<p>One reply stuck with me: “Leon, the problem isn’t me. It’s my
+company. I finished my work in 4 hours. My reward was more work.”
+有一則回覆一直留在我心裡：「Leon，問題不在我，在我公司。我四小時就做完了工作，我得到的獎賞是更多工作。」</p>
+<p>And I sat with that. Because they’re right. But they’re also only
+seeing half the picture.
+我坐下來好好想了這件事。因為他說得對，但他也只看到了一半。</p>
+<p>Here’s the uncomfortable truth nobody wants to say out loud: AI
+created a massive productivity surplus. And now there’s a fight over who
+gets to keep it. 以下是沒人想大聲說出口的不舒服真相：AI
+創造了巨大的生產力盈餘，而現在正在打一場「誰能留下它」的仗。</p>
+<p><strong>The Company’s Side (And They’re Not
+Wrong)｜公司這一方（而且他們沒有錯）</strong></p>
+<p>Amazon cut 30,000 corporate roles in four months. CEO Andy Jassy said
+AI would “reshape operations and reduce the need for some corporate
+roles.” Block slashed 40% of its workforce - over 4,000 people. Jack
+Dorsey’s explanation was blunt: “A significantly smaller team, using
+these tools, can achieve more.” Amazon 在四個月內裁掉 30,000
+個企業職位。執行長 Andy Jassy 說 AI
+會「重塑營運，並降低對某些企業職位的需求」。Block 砍掉 40% 的員工——超過
+4,000 人。Jack Dorsey
+的解釋很直白：「一支顯著更小的團隊，用上這些工具，能達成更多。」</p>
+<p>And if you run a company, this math is hard to argue with.
+而如果你在經營一家公司，這筆帳很難反駁。</p>
+<p>If a team of 10 can now produce what used to take 15, why keep 15?
+That’s not cruelty. That’s the same logic every business has followed
+since the invention of the assembly line. New technology creates
+surplus. Organizations capture it. 如果 10 個人現在能產出過去要 15
+個人才做得出來的東西，為什麼還要留 15
+個？這不是殘忍，這是自從裝配線發明以來每一門生意都遵循的同一套邏輯：新科技創造盈餘，組織把它捕獲。</p>
+<p>This is what companies do. They’re not going to look at a 40%
+productivity gain and say “great, everyone go home at 2pm.” They’re
+going to say “great, we need fewer people” or “great, now this team can
+take on the project we couldn’t afford before.”
+這就是公司會做的事。他們不會看著 40%
+的生產力提升然後說「太好了，大家兩點就下班吧」。他們會說「太好了，我們需要的人變少了」，或是「太好了，這個團隊現在可以接下我們以前負擔不起的那個專案」。</p>
+<p>UC Berkeley researchers tracked about 200 employees at a tech company
+for eight months. The ones who adopted AI expanded scope, took on tasks
+they used to outsource, blurred work-life boundaries. But here’s the
+part people miss - the environment drove much of that expansion. When
+you finish faster, expectations adjust. Not through some official
+policy. Just… naturally. Deadlines tighten. Scope grows. “You can handle
+this now, right?” 柏克萊的研究者追蹤了一家科技公司約 200
+名員工八個月。那些採用 AI
+的人擴大了工作範圍、接下以前會外包的任務、工作與生活的界線變得模糊。但大家忽略的部分是——這種擴張大多是環境驅動的。當你完成得更快，期待就會調整；不是透過什麼正式政策，就只是……自然而然。截止日變緊，範圍變大，「這個你現在應付得來吧？」</p>
+<p>The organization absorbs the gain. That’s not a bug. That’s how
+organizations work. 組織吸收了那份增益。這不是
+bug，這就是組織運作的方式。</p>
+<p><strong>The Individual’s Side (And They’re Not Wrong
+Either)｜個人這一方（而他們也沒有錯）</strong></p>
+<p>But if you’re the person doing the work, this deal feels terrible.
+但如果你是那個實際做事的人，這筆交易感覺糟透了。</p>
+<p>You learned the tools. You got faster. You upskilled on your own
+time. And your reward is… the same salary, more work, and the vague
+threat that if you don’t keep accelerating, someone cheaper (or no one
+at all) will replace you.
+你學了工具、你變快了、你用自己的時間升級技能。而你的獎賞是……一樣的薪水、更多的工作，外加一個模糊的威脅：如果你不繼續加速，某個更便宜的人（或者根本沒有人）就會取代你。</p>
+<p>ActivTrak analyzed 164,000 workers and found that after AI adoption,
+focused deep work actually dropped. What went up? Coordination.
+Messaging. Context-switching. People produced more but spent their
+“saved” time managing the increased volume. ActivTrak 分析了 164,000
+名工作者，發現採用 AI
+之後，專注的深度工作反而下降了。上升的是什麼？協調、傳訊、情境切換。人們產出變多，卻把「省下來」的時間拿去管理暴增的工作量。</p>
+<p>Upwork found 77% of professionals reporting increased workload
+despite speed gains. Not because they chose more work. Because the
+system metabolized their efficiency before they could. Upwork 發現 77%
+的專業工作者回報工作量增加，儘管速度確實提升了。不是因為他們選擇了更多工作，而是因為系統在他們反應過來之前，就把他們的效率代謝掉了。</p>
+<p>So you’re faster, busier, more mentally loaded, and now you’re also
+reading headlines about AI replacing your job entirely. The individual’s
+rational response is obvious: capture the gains yourself. Work less.
+Automate quietly. Don’t advertise how fast you’ve become. Because the
+moment you do, the surplus gets claimed.
+所以你更快、更忙、心理負荷更重，現在還要一邊讀著「AI
+將完全取代你的工作」的頭條。個人的理性反應很明顯：自己把增益留下來。少做一點，安靜地自動化，別張揚你變得多快——因為你一張揚，那份盈餘就會被認領走。</p>
+<p><strong>The Dilemma Nobody’s Solving｜沒有人在解的兩難</strong></p>
+<p>This is a genuine dilemma. Not a problem with a clean answer.
+這是一個真正的兩難，不是一個有乾淨答案的問題。</p>
+<p>The company is right that capturing productivity gains is how
+businesses survive and grow. Every major economic shift - mechanization,
+computers, the internet - played out this way. The surplus got absorbed
+into growth, lower costs, or headcount reduction. Expecting AI to be
+different is naive.
+公司是對的：捕獲生產力增益正是企業存活與成長的方式。每一次重大的經濟轉變——機械化、電腦、網際網路——都是這樣演的。盈餘被吸收進成長、更低的成本，或人力精簡裡。期待
+AI 會有所不同，是天真的。</p>
+<p>The individual is right that they’re the ones who developed the
+capability, and watching all the benefits flow upward while the workload
+flows down is demoralizing. Especially when “upskilling” was supposed to
+be the answer to job security, and now upskilling just means doing three
+people’s jobs.
+個人也是對的：能力是他們自己養出來的，而眼看著好處全部往上流、工作量全部往下流，非常令人洩氣。尤其當「升級技能」原本應該是工作保障的答案，如今升級技能卻只意味著做三個人的工作。</p>
+<p>Neither side is being greedy. Both are being rational. And that’s
+what makes this hard.
+雙方都不是在貪婪，雙方都是在理性行事。而這正是它難的地方。</p>
+<p><strong>What History Tells Us (It’s Not
+Comforting)｜歷史怎麼說（不太安慰人）</strong></p>
+<p>Every major productivity technology has created this exact tension.
+And historically, the organization wins first.
+每一次重大的生產力科技都製造出完全相同的張力。而歷史上，組織總是先贏。</p>
+<p>The industrial revolution made workers dramatically more productive.
+Factory owners captured the surplus for decades - longer hours, lower
+per-unit wages, child labor - before unions, regulation, and social
+pressure redistributed some of the gains back to workers. That
+redistribution took 50-80 years.
+工業革命讓工人的生產力大幅提升。工廠主捕獲了這份盈餘數十年——更長的工時、更低的單位工資、童工——直到工會、法規和社會壓力把部分增益重新分配回工人身上。那次重分配花了五十到八十年。</p>
+<p>Computers made office workers more productive starting in the 1980s.
+Companies captured it through headcount efficiency. The “productivity
+paradox” of that era was that GDP rose but wages didn’t. It took until
+the late 1990s for workers to see meaningful wage gains from the
+computer revolution.
+電腦從一九八〇年代開始提升辦公室工作者的生產力，公司透過人力效率把它捕獲。那個年代的「生產力悖論」是：GDP
+上升了，薪資沒有。工作者要等到九〇年代末，才從電腦革命中看到有意義的薪資成長。</p>
+<p>The pattern is consistent: technology creates surplus, organizations
+capture it first, individuals eventually claw some back through market
+dynamics, regulation, or cultural shifts. But “eventually” can mean a
+generation.
+模式是一致的：科技創造盈餘，組織先捕獲它，個人最終透過市場動態、法規或文化轉變討回一部分。但「最終」可能是一整個世代那麼久。</p>
+<p><strong>So Who Wins With AI?｜那麼在 AI 這一局，誰會贏？</strong></p>
+<p>I think it depends on what kind of work you do.
+我認為這取決於你做的是哪一種工作。</p>
+<p>If your job is primarily execution - producing deliverables that AI
+can now produce faster or cheaper - the organization will capture most
+of the surplus. This is already happening. The layoffs aren’t rumors
+anymore. 如果你的工作主要是執行——產出那些 AI
+現在能做得更快或更便宜的交付物——組織會捕獲大部分盈餘。這已經在發生了，裁員不再是傳聞。</p>
+<p>If your job is primarily judgment - deciding what to build, which
+problems matter, how to navigate ambiguity - you’re in a stronger
+position. AI amplifies your judgment instead of replacing it. And the
+surplus is harder for the organization to extract because it lives in
+your head, not in a workflow.
+如果你的工作主要是判斷——決定要做什麼、哪些問題重要、如何在模糊中前行——你的位置比較穩。AI
+放大你的判斷，而不是取代它。而且那份盈餘比較難被組織抽取，因為它住在你腦袋裡，不在某個工作流程裡。</p>
+<p>The most interesting case is the middle. People whose jobs are a mix
+of execution and judgment. They’re faster at the execution part, which
+means they can spend more time on the judgment part. But only if they
+actively make that shift. If they just do more execution faster, the
+organization absorbs the gain and they become easier to replace.
+最有趣的是中間那群人：工作是執行與判斷混合的人。他們在執行的部分變快了，這意味著他們可以把更多時間花在判斷的部分——但前提是他們主動做出這個轉移。如果他們只是更快地做更多執行，組織就會吸收那份增益，而他們變得更容易被取代。</p>
+<p><strong>What I’m Actually Doing About
+This｜我實際上在做什麼</strong></p>
+<p>I don’t have a grand theory. But I’ve been thinking about this as
+both a founder and an individual.
+我沒有什麼宏大理論。但我一直同時以創辦人和個人的身分思考這件事。</p>
+<p>As a founder, I’m trying to resist the default of just piling more
+work on a faster team. The temptation is real. “We can do more” is the
+most natural sentence in business. But I’ve burned out teams before,
+pre-AI, with exactly this logic. More capacity doesn’t mean more should
+get done. Sometimes it means the same things get done with more care,
+more thinking, more space.
+身為創辦人，我試著抗拒那個預設反應：往一支變快的團隊身上堆更多工作。誘惑是真實的，「我們可以做更多」是商業世界裡最自然的一句話。但在
+AI
+之前，我就用完全相同的邏輯把團隊燒壞過。更多產能不代表就該完成更多事；有時候它代表的是：同樣的事，做得更用心、更多思考、更多餘裕。</p>
+<p>As an individual, I’m deliberately shifting my time toward work AI
+can’t absorb yet - strategic decisions, relationship-building, the kind
+of thinking that requires sitting with ambiguity. Not because I’m noble.
+Because that’s where the leverage is. The execution layer is getting
+commoditized fast. 身為個人，我刻意把時間轉移到 AI
+還吸收不了的工作上——策略決定、關係經營，以及那種需要與模糊共處的思考。不是因為我高尚，而是因為槓桿在那裡。執行層正在快速被商品化。</p>
+<p>The honest answer is that this tension won’t resolve cleanly.
+Organizations will squeeze. Individuals will protect. The people who
+navigate it best won’t be the ones who pick a side - they’ll be the ones
+who understand both sides well enough to position themselves where the
+surplus is hardest to take from them.
+誠實的答案是：這股張力不會乾淨地化解。組織會擠壓，個人會保護。最能在其中穿行的人，不會是選邊站的那些，而是把雙方都理解得夠透徹、因而能把自己放在「盈餘最難從他們身上被拿走」的位置上的那些人。</p>
+<p>That means moving toward judgment. Toward the work that gets more
+valuable when AI handles the rest. 那意味著往判斷移動——往那些「當 AI
+接手其餘一切時反而更值錢」的工作移動。</p>
+<p>Not because it’s fair. Because it’s the game.
+不是因為這樣才公平，而是因為這就是遊戲規則。</p>
+<p><strong>📌 Take Away</strong> - EN: AI created a productivity
+surplus, and there’s now a fight over who keeps it — organizations
+historically capture it first. - 中：AI
+創造了生產力盈餘，而現在正在打一場「誰留得住它」的仗——歷史上，組織總是先捕獲。
+- EN: Neither side is greedy; both are rational. That’s what makes this
+a genuine dilemma. -
+中：雙方都不貪婪，雙方都理性。這正是它成為真兩難的原因。 - EN: Execution
+work gets absorbed by the organization; judgment work stays in your head
+where it’s hard to extract. -
+中：執行型的工作會被組織吸收；判斷型的工作留在你腦袋裡，難以被抽走。 -
+EN: If you’re in the middle, you must actively shift into judgment —
+doing more execution faster just makes you easier to replace. -
+中：如果你位在中間，就必須主動往判斷轉移——只是更快地做更多執行，只會讓你更容易被取代。
+- EN: More capacity doesn’t mean more should get done; sometimes it
+means the same things done with more care. -
+中：更多產能不代表就該完成更多事；有時它代表同樣的事做得更用心。</p>
+<hr />
+<h2 id="february-20262026-年-2-月">February 2026｜2026 年 2 月</h2>
+<h3 id="my-kid-doesnt-need-instructions.-he-needs-judgment."><a
+href="https://aishapedcompany.com/p/my-kid-doesnt-need-instructions-he">My
+Kid Doesn’t Need Instructions. He Needs Judgment.</a></h3>
+<h3
+id="我的孩子不需要說明書他需要判斷力">我的孩子不需要說明書，他需要判斷力</h3>
+<p><em>Feb 18, 2026｜2026 年 2 月 18 日</em></p>
+<p>My 12-year-old asked ChatGPT how to build a rubber band-powered
+racing car for his school project last week. It gave him a perfect
+step-by-step guide. Materials list, measurements, the physics behind
+stored elastic energy - the whole thing.
+上週我十二歲的兒子為了學校作業，問 ChatGPT
+怎麼做一台橡皮筋動力賽車。它給了他一份完美的逐步指南：材料清單、尺寸、彈性位能背後的物理——一應俱全。</p>
+<p>He followed every instruction. Built it in an afternoon. It worked on
+the first try.
+他照著每一條指示做，一個下午就完成了，而且第一次試就成功。</p>
+<p>And I realized: that’s the problem. 然後我意識到：問題就在這裡。</p>
+<p><strong>The Instructions Era Is
+Over｜「說明書時代」結束了</strong></p>
+<p>For most of human history, the hard part was getting the
+instructions. You needed a teacher, a textbook, a mentor, an
+apprenticeship. Access to knowledge was the bottleneck.
+在人類歷史的大部分時間裡，困難的是「取得說明」。你需要一位老師、一本教科書、一個導師、一段學徒生涯。取得知識的管道，就是瓶頸。</p>
+<p>That bottleneck is gone. My 9-year-old can ask an AI to explain
+quantum physics at a level he understands. And it will. Patiently. With
+analogies. At 11pm on a Tuesday. 那個瓶頸消失了。我九歲的兒子可以要求 AI
+用他聽得懂的程度解釋量子物理，而它真的會——有耐心地、用比喻地、在某個週二晚上十一點。</p>
+<p>So what’s left? 那還剩下什麼？</p>
+<p>Judgment. The thing no AI can hand you in a step-by-step guide.
+判斷力。那個沒有任何 AI 能用逐步指南遞給你的東西。</p>
+<p>Judgment is knowing which problem to solve in the first place. It’s
+knowing when the AI’s answer is technically correct but practically
+wrong. It’s knowing when to follow the instructions and when to throw
+them out. 判斷力是：一開始就知道該解哪一個問題；是知道什麼時候 AI
+的答案技術上正確、實務上卻是錯的；是知道什麼時候該照著說明走，什麼時候該把它扔掉。</p>
+<p>And I don’t think most of us - parents, teachers, schools - are
+preparing kids for this shift.
+而我認為我們大多數人——家長、老師、學校——都沒有為這個轉變在準備孩子。</p>
+<p><strong>What I Got Wrong As A Parent｜我身為父親做錯的事</strong></p>
+<p>I caught myself doing something recently that bothered me. My older
+son was struggling with a decision about which extracurricular to commit
+to. And my instinct was to tell him the answer.
+最近我抓到自己在做一件讓我不太舒服的事。我大兒子正為了「該投入哪個課外活動」猶豫不決，而我的直覺是直接告訴他答案。</p>
+<p>“Do this one. Here’s why.” 「選這個。理由是這樣。」</p>
+<p>That’s instructions. That’s me being the AI - giving him the optimal
+output based on my pattern-matching from decades of experience.
+那就是說明書。那是我在扮演
+AI——根據我數十年經驗的模式比對，給他一個最佳輸出。</p>
+<p>But my experience is from a different world. I grew up in a world
+where you pick a lane, get good at it, and stay. That mental model
+doesn’t apply to a kid who’ll graduate into a world where AI can pick up
+any skill in seconds. The competitive advantage isn’t in what you know
+how to do. It’s in knowing what’s worth doing.
+但我的經驗來自一個不同的世界。我成長於一個「選一條路、把它練好、然後待著」的世界。那個心智模型，不適用於一個即將畢業進入「AI
+能在幾秒內學會任何技能」的世界的孩子。競爭優勢不在於你會做什麼，而在於你知道什麼值得做。</p>
+<p>So I stopped myself. Instead of answering, I asked him questions.
+所以我停了下來。我沒有回答，而是問他問題。</p>
+<p>What do you actually enjoy about each one? Not what you think you
+should enjoy. What part do you look forward to?
+每一個當中，你真正享受的是什麼？不是你「覺得自己應該」享受的部分。你會期待的是哪一段？</p>
+<p>If you could only do one for the next year and no one would judge you
+either way, which would you pick?
+如果接下來一年你只能做一個，而且不管選哪個都沒有人會評價你，你會選哪個？</p>
+<p>What would you regret not trying? 哪一個是你沒去試會後悔的？</p>
+<p>He sat with it. It was uncomfortable. He wanted me to just tell him.
+But he made a choice. His own choice, with his own reasoning.
+他跟這些問題坐了一陣子。過程不舒服，他希望我直接告訴他。但他做出了選擇——他自己的選擇，帶著他自己的理由。</p>
+<p>That’s judgment practice. And it’s harder than following
+instructions. 那就是判斷力的練習。而它比照著說明書做要難得多。</p>
+<p><strong>Experience Gets In The Way｜經驗會擋路</strong></p>
+<p>Here’s something I’ve been thinking about that applies to adults too.
+As we get older, we accumulate experience. And experience is supposed to
+be this great advantage - pattern recognition, intuition, “I’ve seen
+this before.”
+以下這件事我一直在想，而且對大人同樣適用。隨著年紀增長，我們累積經驗。而經驗理應是一項巨大優勢——模式辨識、直覺、「這個我看過」。</p>
+<p>But experience also calcifies. You stop considering options outside
+your patterns. You default to what worked last time instead of what
+might work better now.
+但經驗也會鈣化。你不再考慮自己模式以外的選項，你預設採用「上次有效的」，而不是「現在可能更有效的」。</p>
+<p>I see this in myself constantly. Running LifeHack for 20+ years means
+I have strong instincts about what content works, how to structure a
+team, how to launch a product. But some of those instincts are from
+2015. The world has shifted underneath them.
+我不斷在自己身上看到這一點。經營 LifeHack
+二十多年，意味著我對「什麼內容有效、團隊怎麼編組、產品怎麼上市」有著強烈直覺。但其中有些直覺來自
+2015 年，而世界已經在它們腳下移動過了。</p>
+<p>AI doesn’t have this problem. Ask it for ideas and it doesn’t care
+about your track record. It generates options you’d never consider
+because it has no ego invested in what worked before. AI
+沒有這個問題。向它要點子，它不在乎你的過往戰績。它會生出你永遠不會考慮的選項，因為它對「以前什麼有效」沒有投入任何自尊。</p>
+<p>The question is whether you have the judgment to evaluate those
+options honestly. Or whether your experience will make you dismiss the
+unfamiliar ones automatically.
+問題在於，你有沒有判斷力去誠實地評估那些選項——還是你的經驗會讓你自動把陌生的那些駁回。</p>
+<p>This is the skill I want my kids to develop. Not experience - they’ll
+get that naturally. Judgment. The ability to weigh options without
+defaulting to comfort.
+這就是我希望孩子培養的能力。不是經驗——經驗他們自然會有。是判斷力：在不預設回到舒適圈的前提下權衡選項的能力。</p>
+<p><strong>Judgment Can’t Be Taught. But It Can Be
+Practiced.｜判斷力教不來，但練得出來</strong></p>
+<p>You can’t sit a kid down and teach judgment the way you teach
+multiplication. But you can create conditions where it develops.
+你沒辦法像教乘法那樣，把孩子按在椅子上教他判斷力。但你可以創造讓它長出來的條件。</p>
+<p>Let them make real decisions with real consequences. Not catastrophic
+ones. But real. My 12-year-old manages his own schedule for the week. If
+he doesn’t allocate enough time for homework, he feels it. I don’t
+rescue him.
+讓他們做有真實後果的真實決定。不是災難性的，但要是真實的。我十二歲的兒子自己安排一週的行程。如果他沒留夠時間寫作業，他會親身感受到後果。我不出手救他。</p>
+<p>Ask questions instead of giving answers. When either of my sons asks
+me what they should do, my first response is now almost always “What do
+you think?” Not to be annoying. But because the act of formulating your
+own answer - even a wrong one - builds the muscle.
+用問題取代答案。當我任一個兒子問我「我該怎麼做」時，我的第一個回應現在幾乎都是「你覺得呢？」不是為了討人厭，而是因為「自己組出一個答案」這個動作——哪怕是錯的答案——會長肌肉。</p>
+<p>Let them use AI, then critique it. This one surprised me. I let my
+older son use ChatGPT for research, but then we talk about what it got
+wrong or what it left out. He’s starting to develop a sense for when AI
+outputs sound right but miss something important. That’s judgment.
+讓他們用 AI，然後批評它。這一點讓我意外。我讓大兒子用 ChatGPT
+做研究，但事後我們會討論它哪裡弄錯了、漏掉了什麼。他開始培養出一種感覺：什麼時候
+AI 的輸出聽起來很對，卻漏掉了某個重要的東西。那就是判斷力。</p>
+<p>Model uncertainty. I tell my kids when I don’t know the answer. When
+I’m making a decision I’m not sure about. When I changed my mind about
+something. Kids who see adults being certain about everything learn to
+fake certainty. Kids who see adults wrestling with ambiguity learn to
+sit with it.
+示範不確定。我會告訴孩子我什麼時候不知道答案、什麼時候在做一個我沒把握的決定、什麼時候我改變了想法。看著大人對每件事都很篤定的孩子，學會的是假裝篤定；看著大人與模糊搏鬥的孩子，學會的是與模糊共處。</p>
+<p><strong>The Real Question For The AI Era｜AI
+時代真正的問題</strong></p>
+<p>Everyone’s asking “what should we teach kids now that AI exists?” And
+the answers are usually some version of creativity, critical thinking,
+emotional intelligence. Which is fine. But vague. 每個人都在問「既然有了
+AI，我們現在該教孩子什麼？」而答案通常是創造力、批判性思考、情緒智商的某種版本。這些都沒錯，但很空泛。</p>
+<p>I think the answer is simpler and harder.
+我認為答案更簡單，也更難。</p>
+<p>Teach them to make decisions without complete information. Because
+that’s what judgment is. And that’s the one thing AI will never do for
+them - not because it can’t generate a decision, but because the whole
+point is that they need to own it.
+教他們在資訊不完整的情況下做決定。因為那就是判斷力。而那是 AI
+永遠不會替他們做的一件事——不是因為它產不出一個決定，而是因為整件事的重點就在於：那個決定必須是他們自己扛的。</p>
+<p>AI can give you the options. AI can model the outcomes. AI can even
+recommend the “optimal” choice. AI 可以給你選項，AI 可以模擬結果，AI
+甚至可以推薦那個「最佳」選擇。</p>
+<p>But the kid who learns to sit with uncertainty, weigh tradeoffs
+against their own values, and commit to a choice they made themselves -
+that kid has something AI can’t replicate.
+但一個學會與不確定共處、依據自己的價值觀權衡取捨、並為自己做出的選擇負起責任的孩子——那個孩子擁有
+AI 複製不了的東西。</p>
+<p>My rubber band car-building 12-year-old doesn’t need more
+instructions. He’s drowning in instructions. What he needs is the
+confidence to decide which instructions are worth following. And the
+only way to build that is practice.
+我那個做橡皮筋賽車的十二歲兒子，不需要更多說明書——他已經淹沒在說明書裡了。他需要的是「決定哪些說明值得遵循」的底氣。而養成它的唯一方式，就是練習。</p>
+<p>Which means letting him get it wrong sometimes. That part is harder
+for me than for him.
+這意味著要讓他偶爾做錯。而那部分，對我比對他更難。</p>
+<p><strong>📌 Take Away</strong> - EN: Access to instructions is no
+longer the bottleneck; judgment is what’s left. -
+中：取得說明已不再是瓶頸，剩下的是判斷力。 - EN: Judgment is knowing
+which problem to solve, and when a technically correct answer is
+practically wrong. -
+中：判斷力是知道該解哪個問題，以及什麼時候一個技術上正確的答案在實務上是錯的。
+- EN: Experience calcifies — AI has no ego invested in what worked
+before, but you need judgment to evaluate what it offers. -
+中：經驗會鈣化——AI
+對「以前什麼有效」沒有自尊上的執著，但你需要判斷力去評估它給的東西。 -
+EN: Judgment can’t be taught, only practiced: real decisions with real
+consequences, questions instead of answers, critique the AI, model
+uncertainty. -
+中：判斷力教不來，只能練：有真實後果的真實決定、用問題取代答案、批評
+AI、示範不確定。 - EN: AI can generate a decision but can never own it —
+that’s the whole point. - 中：AI
+能產出一個決定，卻永遠無法承擔它——而那正是整件事的重點。</p>
+<hr />
+<h3
+id="my-kids-built-video-games-with-ai-last-year.-the-hard-part-wasnt-what-i-expected."><a
+href="https://aishapedcompany.com/p/my-kids-built-video-games-with-ai">My
+Kids Built Video Games With AI Last Year. The Hard Part Wasn’t What I
+Expected.</a></h3>
+<h3
+id="我的孩子去年用-ai-做出了電玩難的地方不是我以為的那個">我的孩子去年用
+AI 做出了電玩。難的地方不是我以為的那個</h3>
+<p><em>Feb 12, 2026｜2026 年 2 月 12 日</em></p>
+<p>I showed my kids how to build games with AI last year.
+去年我教我的孩子怎麼用 AI 做遊戲。</p>
+<p>My older son (12) started early in the year. My younger son (9)
+picked it up toward the end. Neither of them has ever written a line of
+code. 大兒子（12 歲）年初就開始，小兒子（9
+歲）年末才接手。他們兩個都沒寫過一行程式碼。</p>
+<p>My 12-year-old built a tank battle game with randomly generated maps.
+My 9-year-old built a 3D first-person prison break game - three
+chapters, a full storyline, graphics that look like they came out of
+Roblox. 十二歲的做出了一款地圖隨機生成的戰車對戰遊戲。九歲的做出了一款
+3D 第一人稱越獄遊戲——三個章節、完整劇情、看起來像從 Roblox
+裡跑出來的畫面。</p>
+<p>I want to tell you about what happened. But more importantly, I want
+to tell you about what was hard. Because it wasn’t what I expected.
+我想跟你說發生了什麼事。但更重要的是，我想說「難的是什麼」——因為那不是我以為的那個。</p>
+<p><strong>What The Kids Built｜孩子們做出了什麼</strong></p>
+<p>My son went for a tank game. He got the basic mechanics working
+pretty quickly - movement, shooting, simple enemies. AI handled that
+without much trouble.
+我兒子選了戰車遊戲。基本機制他很快就跑起來了——移動、射擊、簡單的敵人。這些
+AI 處理起來沒什麼困難。</p>
+<p>Then he wanted something harder. He wanted the map to be different
+every time you play. Not a fixed layout - a procedurally generated
+battlefield with obstacles, terrain, and spawn points that made sense.
+接著他想要更難的東西。他要地圖每次玩都不一樣。不是固定的佈局，而是一個程序生成的戰場，帶著合理的障礙物、地形和出生點。</p>
+<p>That’s a real computer science problem. Algorithmic map generation.
+And he had to figure out how to describe it to the AI precisely enough
+to get a working result.
+那是一個真正的計算機科學問題：演算法式地圖生成。而他必須想辦法把它描述得夠精確，才能讓
+AI 給出可用的結果。</p>
+<p>It took him a bunch of rounds going back and forth. “No, I want the
+walls to be random but not blocking the path.” “The tanks should start
+far apart.” “There should be places to hide but not too many.” Each time
+the AI tried something, he’d test it, see what was wrong, and try to
+explain the fix.
+他來回折騰了好幾輪。「不對，我要牆是隨機的，但不能擋住通路。」「戰車一開始要離得遠一點。」「要有地方可以躲，但不能太多。」每次
+AI 試了什麼，他就測試、看哪裡不對，然後試著把修正的方向解釋清楚。</p>
+<p>He got there eventually. The maps aren’t perfect. But they work. And
+he understands what procedural generation is now - not because someone
+taught him the concept, but because he needed it for his game.
+他最後做到了。地圖不完美，但可以用。而且他現在懂什麼是程序生成——不是因為誰教了他這個概念，而是因為他的遊戲需要它。</p>
+<p>My 9-year-old’s project was more ambitious than I expected. He wanted
+a 3D first-person game where you escape from a prison. He had the whole
+thing in his head - the layout of the prison, the guards’ patrol routes,
+the items you need to find, the plot twists between chapters.
+九歲那個的專案比我預期的更有野心。他想做一款 3D
+第一人稱的越獄遊戲。整個東西都在他腦袋裡——監獄的格局、警衛的巡邏路線、你必須找到的道具、章節之間的劇情轉折。</p>
+<p>The 3D graphics ended up looking like Roblox, which he was thrilled
+about. Three playable chapters. A storyline that actually holds
+together. 3D 畫面最後看起來像
+Roblox，這讓他超級興奮。三個可玩的章節，一條真的接得起來的劇情線。</p>
+<p>He’s nine. 他九歲。</p>
+<p><strong>The Real Bottleneck｜真正的瓶頸</strong></p>
+<p>Here’s what surprised me. The technology wasn’t the hard part. The AI
+could generate code, create game mechanics, design levels, render 3D
+environments. The tools are there. 讓我意外的是：技術不是困難的部分。AI
+能生成程式碼、做出遊戲機制、設計關卡、算出 3D 場景。工具都到位了。</p>
+<p>What was hard - for both of them - was articulating what was in their
+head. 真正困難的——對他們兩個都一樣——是把腦袋裡的東西講出來。</p>
+<p>My son knew exactly what he wanted the random maps to feel like. He
+could picture it. He just couldn’t describe it in words precise enough
+for the AI to build it. There’s a huge gap between “I want it to be kind
+of random but also fair” and a specification the AI can execute on.
+我兒子非常清楚他要那些隨機地圖「感覺起來」是什麼樣，他腦中有畫面。他只是沒辦法用夠精確的文字描述出來，讓
+AI 據以打造。從「我要它有點隨機但又要公平」到一份 AI
+能執行的規格之間，隔著一道巨大的鴻溝。</p>
+<p>My 9-year-old had an even bigger version of this problem. He had a
+rich, detailed world in his imagination. Getting it out of his head and
+into language was the bottleneck. Not the coding. Not the technology.
+The translation from imagination to words.
+九歲那個的這個問題更嚴重。他的想像裡有一個豐富而細緻的世界，把它從腦袋裡搬進語言，才是瓶頸。不是寫程式，不是技術，而是從想像到文字的那道翻譯。</p>
+<p>I watched both of them develop this skill in real time. After a few
+sessions they were noticeably better at describing what they wanted.
+More specific. More structured in how they communicated.
+我親眼看著他們兩個即時地長出這項能力。幾次之後，他們描述自己想要什麼的能力明顯變好了——更具體，表達方式也更有結構。</p>
+<p><strong>The Skill That Actually
+Matters｜真正重要的那項能力</strong></p>
+<p>We keep asking the wrong question about kids and AI. The question
+isn’t “should kids learn to code if AI can code for them?” That’s like
+asking whether kids should learn to drive when self-driving cars are
+coming. It misses the point. 關於孩子與
+AI，我們一直在問錯問題。問題不是「如果 AI
+會寫程式，孩子還該不該學寫程式？」那就像在問「自駕車要來了，孩子還該不該學開車？」——完全沒抓到重點。</p>
+<p>The better question is: what does AI require you to be good at?
+更好的問題是：AI 要求你擅長什麼？</p>
+<p>And from watching my kids, the answer is clear. You need to be good
+at knowing what you want and explaining it clearly.
+從觀察我的孩子來看，答案很清楚：你必須擅長「知道自己要什麼，並把它講清楚」。</p>
+<p>That sounds simple. It isn’t. 這聽起來很簡單。並不簡單。</p>
+<p>Think about how often you struggle to articulate an idea at work. How
+many meetings are just people failing to describe what they actually
+mean. How many projects go sideways because the spec was fuzzy.
+想想你在工作上有多常說不清楚一個想法；有多少會議其實就是一群人在講不清楚自己真正的意思；有多少專案歪掉，是因為規格太模糊。</p>
+<p>Now imagine a generation of kids who grew up practicing this skill -
+not in a classroom exercise, but because they needed it to build the
+thing they were excited about.
+現在想像一整個世代的孩子，從小就在練這項能力——不是在課堂習題裡，而是因為他們需要它來做出自己興奮的東西。</p>
+<p>My son didn’t learn “prompt engineering.” He learned how to take a
+fuzzy idea in his head and refine it into something precise enough to
+execute. That’s a thinking skill. It transfers to everything.
+我兒子學到的不是「提示工程」。他學到的是如何把腦中一個模糊的想法，精煉成一個精確到足以被執行的東西。那是一項思考能力，它會遷移到所有事情上。</p>
+<p><strong>What I’d Tell Other
+Parents｜我會告訴其他家長什麼</strong></p>
+<p>You don’t need to be technical to do this with your kids. I didn’t
+sit down and teach them programming concepts. I showed them how to talk
+to the AI and then got out of the way.
+你不需要懂技術，也能陪孩子做這件事。我沒有坐下來教他們程式設計概念，我只是示範怎麼跟
+AI 說話，然後閃到一邊去。</p>
+<p>The magic is that kids already have the creativity. They have worlds
+in their heads that are more imaginative than anything I’d come up with.
+What they need is the experience of translating those worlds into words.
+AI gives them a reason to practice that.
+神奇之處在於，孩子本來就有創造力。他們腦袋裡的世界，比我想得出來的任何東西都更有想像力。他們需要的，是把那些世界翻譯成文字的經驗。而
+AI 給了他們練習的理由。</p>
+<p>A few things I noticed: 我觀察到幾件事：</p>
+<p>The best prompts came from frustration. When the AI got something
+wrong, my kids had to figure out why it was wrong and explain the
+difference between what they got and what they wanted. That’s
+higher-order thinking dressed up as a game. 最好的提示來自挫折。當 AI
+弄錯了什麼，我的孩子就得搞清楚它為什麼錯，並解釋「拿到的」和「想要的」之間差在哪裡。那是披著遊戲外衣的高階思考。</p>
+<p>They learned iteration naturally. Not as a concept someone taught
+them, but as a thing you do. You try, it’s not right, you adjust, you
+try again. By the fifth or sixth round they stopped being frustrated by
+imperfect results and started treating each attempt as information.
+他們自然而然學會了迭代。不是誰教的一個概念，而是一件你就這樣做的事：你試、不對、調整、再試。到了第五、六輪，他們不再為不完美的結果感到挫折，而開始把每一次嘗試都當成資訊。</p>
+<p>They developed taste. My 9-year-old rejected several versions of his
+prison layout not because they were broken, but because they “didn’t
+feel right.” He was making design judgments. At nine.
+他們養出了品味。我九歲的兒子否決了好幾版監獄格局，不是因為它們壞掉了，而是因為它們「感覺不對」。他在做設計判斷。九歲。</p>
+<p><strong>The Bigger Picture｜更大的圖像</strong></p>
+<p>I keep thinking about this: my kids built things last year that would
+have required a team of developers a decade ago. Not perfect versions -
+but working versions. Playable games with real mechanics and narratives.
+我一直在想這件事：我的孩子去年做出來的東西，十年前需要一整支開發團隊。不是完美的版本，但是能跑的版本——有真實機制和敘事、可以玩的遊戲。</p>
+<p>The barrier to building just dropped to zero. The only barrier left
+is: can you describe what you want to build?
+「動手做」的門檻剛剛降到了零。唯一剩下的門檻是：你描述得出你想做什麼嗎？</p>
+<p>That’s not a technology problem. That’s a clarity-of-thinking
+problem. And the best way I’ve found to practice it is to give a kid an
+AI and something they’re excited about building.
+那不是技術問題，那是「思考是否清晰」的問題。而我找到最好的練習方式，就是給孩子一個
+AI，加上一件他們興奮想做的東西。</p>
+<p>The prison break game has bugs. The tank maps sometimes generate
+weird layouts. But my kids built them. And more importantly, they
+learned how to think clearly enough to explain what they imagined.
+那款越獄遊戲有
+bug，戰車地圖偶爾會生出奇怪的佈局。但那是我的孩子做出來的。更重要的是，他們學會了把思路理清到足以解釋自己想像的程度。</p>
+<p>That might be the most useful skill they develop this year.
+那可能是他們今年培養出來最有用的能力。</p>
+<p><strong>📌 Take Away</strong> - EN: The technology wasn’t the hard
+part — articulating what’s in your head was. -
+中：技術不是困難的部分，把腦袋裡的東西講出來才是。 - EN: The barrier to
+building dropped to zero; the only barrier left is whether you can
+describe what you want. -
+中：動手做的門檻已降到零，唯一剩下的門檻是：你描述得出你想要什麼嗎。 -
+EN: The best prompts come from frustration — explaining the gap between
+what you got and what you wanted is higher-order thinking. -
+中：最好的提示來自挫折——解釋「拿到的」與「想要的」之間的落差，就是高階思考。
+- EN: Kids learned iteration and taste naturally: each imperfect attempt
+becomes information, and “it doesn’t feel right” is a design judgment. -
+中：孩子自然學會了迭代與品味：每一次不完美的嘗試都變成資訊，而「感覺不對」本身就是一種設計判斷。
+- EN: It’s not a prompt-engineering skill; it’s a clarity-of-thinking
+skill, and it transfers to everything. -
+中：這不是提示工程的技巧，而是思路清晰的能力，而它會遷移到所有事情上。</p>
+<hr />
+<h2 id="全書總結the-whole-argument-in-one-page">全書總結｜The Whole
+Argument in One Page</h2>
+<ul>
+<li>EN: An AI-run company is not “agents everywhere” — it’s tight
+self-correcting loops with human judgment concentrated at a few
+well-placed checkpoints.</li>
+<li>中：AI
+運作的公司，不是「到處都是代理」，而是一組緊密的自我修正迴圈，並把人的判斷力集中在少數幾個擺對位置的檢查點上。</li>
+<li>EN: Gate only the irreversible and the essential; watch everything
+else through observability instead of blocking it.</li>
+<li>中：只在「不可逆」和「本質性」的地方設關卡；其餘一切用可觀測性去觀察，而不是攔阻。</li>
+<li>EN: Every gate action is training data — the reason you give is
+worth more than the verdict itself.</li>
+<li>中：每一次關卡上的動作都是訓練資料——你給出的理由，比那個裁決本身更有價值。</li>
+<li>EN: Memory is never law: a guess must never inherit the authority of
+a decision you made on purpose.</li>
+<li>中：記憶永遠不是法律：一個猜測，絕不能繼承你刻意做出的決定所擁有的權威。</li>
+<li>EN: Structure follows the work: three questions produce five agent
+shapes, and the org chart falls out of them.</li>
+<li>中：結構由工作本身決定：三個問題生出五種代理形態，而組織圖就是從中掉出來的。</li>
+<li>EN: Point the automation at the business’s waiting time, not at one
+person’s working time.</li>
+<li>中：把自動化指向生意的「等待時間」，而不是某個人的「工作時間」。</li>
+<li>EN: Close the loop or the company forgets: input, execution,
+outcome, improvement — all four, every cycle.</li>
+<li>中：把迴圈閉合，否則公司會遺忘：輸入、執行、結果、改進——四份，每個循環都要。</li>
+<li>EN: As execution gets commoditized, judgment is the only thing left
+that compounds — in a company, in a career, and in a child.</li>
+<li>中：當執行被商品化，判斷力就是唯一還會複利的東西——在公司裡、在職涯裡，也在一個孩子身上。</li>
+</ul>
+</body>
+</html>
